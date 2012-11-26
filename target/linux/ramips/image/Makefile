@@ -141,6 +141,17 @@ define BuildFirmware/UIMAGE_8M
 	$(call MkCombineduImage,$(1),$(2),$(call mkcmdline,$(3),$(4),$(5)) $(call mkmtd/$(6),$(mtdlayout_8M)),$(kernel_size_8M),$(rootfs_size_8M),$(7))
 endef
 
+mtdlayout_16M=256k(u-boot)ro,128k(u-boot-env)ro,128k(factory)ro,1024k(kernel),14848k(rootfs),15872k@0x80000(firmware),16384k@0x0(fullflash)
+kernel_size_16M=1048576
+rootfs_size_16M=15204352
+define BuildFirmware/GENERIC_16M
+	$(call BuildFirmware/Generic,$(1),$(2),$(call mkcmdline,$(3),$(4),$(5)) $(call mkmtd/$(6),$(mtdlayout_16M)),$(kernel_size_16M),$(rootfs_size_16M))
+endef
+
+define BuildFirmware/GENERIC_16M/initramfs
+	$(call BuildFirmware/Generic/initramfs,$(1),$(2),$(call mkcmdline,$(3),$(4),$(5)) $(call mkmtd/$(6),$(mtdlayout_16M)))
+endef
+
 mtdlayout_edimax_3g6200n=192k(u-boot)ro,64k(u-boot-env)ro,64k(factory)ro,896k(kernel),2752k(rootfs),128k@0x3e0000(cimage)ro,3648k@0x50000(firmware)
 define BuildFirmware/3G6200N
 	$(call BuildFirmware/Generic,$(1),$(2),$(call mkcmdline,$(3),$(4),$(5)) $(call mkmtd/$(6),$(mtdlayout_edimax_3g6200n)),917504,2818048)
@@ -257,6 +268,10 @@ endef
 
 define BuildFirmware/FONERA20N/initramfs
 	$(call BuildFirmware/GENERIC_8M/initramfs,$(1),fonera20n,FONERA20N,ttyS1,57600,phys)
+endef
+
+define BuildFirmware/HG255D
+	$(call BuildFirmware/GENERIC_16M,$(1),hg255d,HG255D,ttyS1,57600,phys)
 endef
 
 mtdlayout_nw718=192k(u-boot)ro,128k(config)ro,64k(factory)ro,896k(kernel),2816k(rootfs),3712k@0x60000(firmware)
@@ -493,6 +508,10 @@ define Image/Build/Profile/FONERA20N
 	$(call Image/Build/Template/$(fs_squash)/$(1),FONERA20N)
 endef
 
+define Image/Build/Profile/HG255D
+	$(call Image/Build/Template/$(fs_squash)/$(1),HG255D)
+endef
+
 define Image/Build/Profile/FREESTATION5
 	$(call Image/Build/Template/$(fs_squash)/$(1),GENERIC_8M,freestation5,FREESTATION5,ttyS1,115200,phys)
 endef
@@ -604,6 +623,7 @@ define Image/Build/Profile/Default
 	$(call Image/Build/Profile/F5D8235V2,$(1))
 	$(call Image/Build/Profile/RTN10PLUS,$(1))
 	$(call Image/Build/Profile/FONERA20N,$(1))
+	$(call Image/Build/Profile/HG255D,$(1))
 	$(call Image/Build/Profile/FREESTATION5,$(1))
 	$(call Image/Build/Profile/HW5503G,$(1))
 	$(call Image/Build/Profile/MOFI35003GN,$(1))

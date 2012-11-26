@@ -395,6 +395,18 @@ static struct rt3883_ohci_platform_data rt3352_ohci_data = {
 	.stop_hw	= rt3352_usb_host_stop,
 };
 
+/*
+ * map the gpio
+ */
+static struct resource gpiodev_resource = {
+	.start			= 0xFFFFFFFF,
+};
+
+void __init rt305x_register_gpiodev(void)
+{
+	platform_device_register_simple("GPIODEV", 0, &gpiodev_resource, 1);
+}
+
 static u64 rt3352_ohci_dmamask = DMA_BIT_MASK(32);
 static struct platform_device rt3352_ohci_device = {
 	.name		= "rt3883-ohci",
