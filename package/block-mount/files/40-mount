@@ -123,7 +123,6 @@ if [ `basename $blkdev` != "block" ]; then
 					logger -t 'fstab' "Mount enabled for $mds_mount_device but it doesn't have a defined mountpoint (target)"
 				fi
 			}
-			pgrep aria2c >/dev/null 2>&1 || /etc/init.d/aria2 start
 		}
 
 		[ -z "$use_device" ] && {
@@ -149,8 +148,6 @@ if [ `basename $blkdev` != "block" ]; then
 		reset_dev_section_cb
 		;;
 	remove)
-		killall -2 aria2c
-		sleep 3
 		umount /dev/$device
 		umount $mountpoint
 		;;
