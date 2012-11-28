@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/lantiq/files/drivers/usb/ifxhcd
 svn://svn.openwrt.org/openwrt
 
@@ -196,40 +196,6 @@ blogic
 
 11749
 
-ifxhcd.h
-file
-
-
-
-
-2012-11-26T22:31:36.000000Z
-c014809b61adb0700c40b751e7f1680b
-2012-08-03T08:53:02.460175Z
-32953
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-32475
-
 ifxusb_version.h
 file
 
@@ -263,6 +229,40 @@ blogic
 
 
 74
+
+ifxhcd.h
+file
+
+
+
+
+2012-11-26T22:31:36.000000Z
+c014809b61adb0700c40b751e7f1680b
+2012-08-03T08:53:02.460175Z
+32953
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+32475
 
 ifxusb_driver.c
 file
@@ -400,40 +400,6 @@ blogic
 
 15874
 
-ifxusb_regs.h
-file
-
-
-
-
-2012-11-26T22:31:36.000000Z
-0750d71402e41ef7798968effbdde77f
-2012-08-03T08:53:02.460175Z
-32953
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-52938
-
 ifxusb_plat.h
 file
 
@@ -467,6 +433,40 @@ blogic
 
 
 40407
+
+ifxusb_regs.h
+file
+
+
+
+
+2012-11-26T22:31:36.000000Z
+0750d71402e41ef7798968effbdde77f
+2012-08-03T08:53:02.460175Z
+32953
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+52938
 
 ifxusb_cif.h
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/generic/files/fs/yaffs2
 svn://svn.openwrt.org/openwrt
 
@@ -570,14 +570,14 @@ has-props
 
 635
 
-yaffs_yaffs2.h
+yaffs_linux_allocator.c
 file
 
 
 
 
 2012-11-26T22:31:43.000000Z
-24f9b9382715f184989495d12a3878aa
+6442cac9629283739cafb77935e537de
 2012-10-30T18:53:12.172000Z
 34018
 juhosg
@@ -602,7 +602,7 @@ has-props
 
 
 
-1270
+4802
 
 yaffs_ecc.h
 file
@@ -638,14 +638,14 @@ has-props
 
 1403
 
-yaffs_linux_allocator.c
+yaffs_yaffs2.h
 file
 
 
 
 
 2012-11-26T22:31:43.000000Z
-6442cac9629283739cafb77935e537de
+24f9b9382715f184989495d12a3878aa
 2012-10-30T18:53:12.172000Z
 34018
 juhosg
@@ -670,7 +670,7 @@ has-props
 
 
 
-4802
+1270
 
 yportenv.h
 file
@@ -706,40 +706,6 @@ has-props
 
 5919
 
-Makefile
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-441d554b6a26d56f11db7fba7db7da28
-2012-10-30T18:53:12.172000Z
-34018
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-494
-
 yaffs_verify.c
 file
 
@@ -773,6 +739,40 @@ has-props
 
 
 15650
+
+Makefile
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+441d554b6a26d56f11db7fba7db7da28
+2012-10-30T18:53:12.172000Z
+34018
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+494
 
 yaffsinterface.h
 file
@@ -978,14 +978,14 @@ has-props
 
 916
 
-yaffs_allocator.c
+yaffs_nand.c
 file
 
 
 
 
 2012-11-26T22:31:43.000000Z
-5bb3999c9724c857db6093e18eda31ba
+89359930fe61e0d0c2665f2bdf778734
 2012-10-30T18:53:12.172000Z
 34018
 juhosg
@@ -1010,7 +1010,7 @@ has-props
 
 
 
-8441
+3185
 
 yaffs_list.h
 file
@@ -1046,14 +1046,14 @@ has-props
 
 3098
 
-yaffs_nand.c
+yaffs_allocator.c
 file
 
 
 
 
 2012-11-26T22:31:43.000000Z
-89359930fe61e0d0c2665f2bdf778734
+5bb3999c9724c857db6093e18eda31ba
 2012-10-30T18:53:12.172000Z
 34018
 juhosg
@@ -1078,7 +1078,7 @@ has-props
 
 
 
-3185
+8441
 
 yaffs_bitmap.h
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/tools
 svn://svn.openwrt.org/openwrt
 
@@ -89,22 +89,19 @@ dir
 patch-cmdline
 dir
 
-bison
+e2fsprogs
 dir
 
-e2fsprogs
+bison
 dir
 
 sed
 dir
 
-sdcc
-dir
-
 upx
 dir
 
-mtools
+sdcc
 dir
 
 Makefile
@@ -141,10 +138,13 @@ has-props
 
 5061
 
-autoconf
+mtools
 dir
 
 wrt350nv2-builder
+dir
+
+autoconf
 dir
 
 lzma-old

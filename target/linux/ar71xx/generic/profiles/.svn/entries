@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/ar71xx/generic/profiles
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ juhosg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-ew.mk
-file
-
-
-
-
-2012-11-26T22:31:38.000000Z
-946737002c398988a4a97708816f1fbe
-2012-08-01T12:24:56.181093Z
-32933
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-569
 
 zyxel.mk
 file
@@ -94,16 +60,16 @@ juhosg
 
 419
 
-tp-link.mk
+ew.mk
 file
 
 
 
 
 2012-11-26T22:31:38.000000Z
-1bfe4ec622463240a474773ffdac21a9
-2012-11-25T16:15:35.246418Z
-34339
+946737002c398988a4a97708816f1fbe
+2012-08-01T12:24:56.181093Z
+32933
 juhosg
 has-props
 
@@ -126,75 +92,7 @@ has-props
 
 
 
-4329
-
-buffalo.mk
-file
-
-
-
-
-2012-11-26T22:31:38.000000Z
-683c2ea74ea612b9c15bf5aae1579f06
-2012-08-01T12:24:52.727074Z
-32931
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2037
-
-d-link.mk
-file
-
-
-
-
-2012-11-26T22:31:38.000000Z
-3667489cbcf531ac0acbde2ca376ef3b
-2012-09-18T14:30:57.431181Z
-33459
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1235
+569
 
 openmesh.mk
 file
@@ -230,16 +128,50 @@ has-props
 
 604
 
-allnet.mk
+d-link.mk
 file
 
 
 
 
 2012-11-26T22:31:38.000000Z
-37c32c33023b529a21e46beed968e7b9
-2012-09-05T19:22:51.480350Z
-33317
+3667489cbcf531ac0acbde2ca376ef3b
+2012-09-18T14:30:57.431181Z
+33459
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1235
+
+buffalo.mk
+file
+
+
+
+
+2012-11-26T22:31:38.000000Z
+683c2ea74ea612b9c15bf5aae1579f06
+2012-08-01T12:24:52.727074Z
+32931
 juhosg
 
 
@@ -262,7 +194,41 @@ juhosg
 
 
 
-796
+2037
+
+tp-link.mk
+file
+
+
+
+
+2012-11-26T22:31:38.000000Z
+1bfe4ec622463240a474773ffdac21a9
+2012-11-25T16:15:35.246418Z
+34339
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4329
 
 atlantis.mk
 file
@@ -298,6 +264,40 @@ has-props
 
 370
 
+allnet.mk
+file
+
+
+
+
+2012-11-26T22:31:38.000000Z
+37c32c33023b529a21e46beed968e7b9
+2012-09-05T19:22:51.480350Z
+33317
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+796
+
 trendnet.mk
 file
 
@@ -331,40 +331,6 @@ has-props
 
 
 992
-
-pcs.mk
-file
-
-
-
-
-2012-11-26T22:31:38.000000Z
-3700e8cadc4b3606aa6f154b6cdeea65
-2012-11-25T16:15:40.254171Z
-34340
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-702
 
 netgear.mk
 file
@@ -400,6 +366,40 @@ juhosg
 
 457
 
+pcs.mk
+file
+
+
+
+
+2012-11-26T22:31:38.000000Z
+3700e8cadc4b3606aa6f154b6cdeea65
+2012-11-25T16:15:40.254171Z
+34340
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+702
+
 planex.mk
 file
 
@@ -434,40 +434,6 @@ has-props
 
 585
 
-02-ath5k.mk
-file
-
-
-
-
-2012-11-26T22:31:38.000000Z
-08df3ee79510aa93ea4d5c9807b4cb72
-2011-12-03T16:33:41.731884Z
-29408
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-390
-
 compex.mk
 file
 
@@ -501,6 +467,40 @@ has-props
 
 
 658
+
+02-ath5k.mk
+file
+
+
+
+
+2012-11-26T22:31:38.000000Z
+08df3ee79510aa93ea4d5c9807b4cb72
+2011-12-03T16:33:41.731884Z
+29408
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+390
 
 linksys.mk
 file

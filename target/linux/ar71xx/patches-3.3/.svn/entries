@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/ar71xx/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -570,40 +570,6 @@ juhosg
 
 680
 
-403-mtd_fix_cfi_cmdset_0002_status_check.patch
-file
-
-
-
-
-2012-11-26T22:31:37.000000Z
-22409dfb389c1b51a63621fe9378bc99
-2012-02-10T11:53:56.101198Z
-30410
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1642
-
 147-MIPS-ath79-remove-unused-ar7-1x-24-x_pcibios_init-fu.patch
 file
 
@@ -637,6 +603,40 @@ juhosg
 
 
 4196
+
+403-mtd_fix_cfi_cmdset_0002_status_check.patch
+file
+
+
+
+
+2012-11-26T22:31:37.000000Z
+22409dfb389c1b51a63621fe9378bc99
+2012-02-10T11:53:56.101198Z
+30410
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1642
 
 607-MIPS-ath79-ubnt-xm-fixes.patch
 file
@@ -774,40 +774,6 @@ juhosg
 
 796
 
-520-MIPS-ath79-enable-UART-function.patch
-file
-
-
-
-
-2012-11-26T22:31:37.000000Z
-3003778e2a5910d61b464852c784515b
-2012-03-12T17:32:39.652995Z
-30909
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-621
-
 408-mtd-redboot_partition_scan.patch
 file
 
@@ -841,6 +807,40 @@ juhosg
 
 
 1283
+
+520-MIPS-ath79-enable-UART-function.patch
+file
+
+
+
+
+2012-11-26T22:31:37.000000Z
+3003778e2a5910d61b464852c784515b
+2012-03-12T17:32:39.652995Z
+30909
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+621
 
 613-MIPS-ath79-ubnt-xm-add-unifi-outdoor.patch
 file
@@ -978,40 +978,6 @@ juhosg
 
 4391
 
-129-MIPS-ath79-add-PCI_AR724X-Kconfig-symbol.patch
-file
-
-
-
-
-2012-11-26T22:31:37.000000Z
-d3b31fa0f1023360b681be11bf2dd859
-2012-05-05T13:56:35.468015Z
-31602
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2056
-
 509-MIPS-ath79-process-board-kernel-option.patch
 file
 
@@ -1045,6 +1011,40 @@ juhosg
 
 
 268
+
+129-MIPS-ath79-add-PCI_AR724X-Kconfig-symbol.patch
+file
+
+
+
+
+2012-11-26T22:31:37.000000Z
+d3b31fa0f1023360b681be11bf2dd859
+2012-05-05T13:56:35.468015Z
+31602
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2056
 
 137-MIPS-ath79-fix-CPU-DDR-frequency-calculation-for-SRI.patch
 file
@@ -2236,40 +2236,6 @@ juhosg
 
 809
 
-127-MIPS-ath79-register-UART-device-for-AR934X-SoCs.patch
-file
-
-
-
-
-2012-11-26T22:31:37.000000Z
-1e1ce2edaf0f61f70ebfdb2b19a53493
-2012-05-05T13:56:35.468015Z
-31602
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-966
-
 132-MIPS-ath79-use-correct-IRQ-number-for-the-OHCI-contr.patch
 file
 
@@ -2303,6 +2269,40 @@ juhosg
 
 
 1429
+
+127-MIPS-ath79-register-UART-device-for-AR934X-SoCs.patch
+file
+
+
+
+
+2012-11-26T22:31:37.000000Z
+1e1ce2edaf0f61f70ebfdb2b19a53493
+2012-05-05T13:56:35.468015Z
+31602
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+966
 
 102-MIPS-ath79-make-ath724x_pcibios_init-visible-for-ext.patch
 file
@@ -2372,40 +2372,6 @@ juhosg
 
 2073
 
-413-mtd-ar934x-nand-driver.patch
-file
-
-
-
-
-2012-11-26T22:31:37.000000Z
-3f9bf1f339bed7cf9e455d8f82ea4508
-2012-09-13T07:26:22.481375Z
-33385
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-773
-
 430-drivers-link-spi-before-mtd.patch
 file
 
@@ -2439,6 +2405,40 @@ juhosg
 
 
 352
+
+413-mtd-ar934x-nand-driver.patch
+file
+
+
+
+
+2012-11-26T22:31:37.000000Z
+3f9bf1f339bed7cf9e455d8f82ea4508
+2012-09-13T07:26:22.481375Z
+33385
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+773
 
 615-MIPS-ath79-RB435G-support.patch
 file
@@ -2474,40 +2474,6 @@ juhosg
 
 502
 
-605-MIPS-ath79-db120-fixes.patch
-file
-
-
-
-
-2012-11-26T22:31:37.000000Z
-e26593a3498b926de8bec21a83148329
-2012-10-18T07:13:12.291959Z
-33837
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5827
-
 604-MIPS-ath79-ap81-fixes.patch
 file
 
@@ -2542,16 +2508,16 @@ juhosg
 
 3150
 
-130-MIPS-ath79-add-PCI-registration-code-for-AR934X.patch
+605-MIPS-ath79-db120-fixes.patch
 file
 
 
 
 
 2012-11-26T22:31:37.000000Z
-8e915046267b5a584cd05ceab416c360
-2012-05-05T13:56:35.468015Z
-31602
+e26593a3498b926de8bec21a83148329
+2012-10-18T07:13:12.291959Z
+33837
 juhosg
 
 
@@ -2574,7 +2540,7 @@ juhosg
 
 
 
-1905
+5827
 
 500-MIPS-fw-myloader.patch
 file
@@ -2610,6 +2576,40 @@ juhosg
 
 476
 
+130-MIPS-ath79-add-PCI-registration-code-for-AR934X.patch
+file
+
+
+
+
+2012-11-26T22:31:37.000000Z
+8e915046267b5a584cd05ceab416c360
+2012-05-05T13:56:35.468015Z
+31602
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1905
+
 163-MIPS-ath79-add-IRQ-handling-code-for-the-QCA955X-SoC.patch
 file
 
@@ -2644,40 +2644,6 @@ juhosg
 
 7113
 
-165-MIPS-ath79-add-QCA955X-specific-glue-to-ath79_device.patch
-file
-
-
-
-
-2012-11-26T22:31:37.000000Z
-18ef0de39c8ed0436ca4e0505ef3c249
-2012-07-05T08:26:47.035605Z
-32606
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1006
-
 101-MIPS-ath79-rename-pci-ath724x.h.patch
 file
 
@@ -2711,6 +2677,40 @@ juhosg
 
 
 3003
+
+165-MIPS-ath79-add-QCA955X-specific-glue-to-ath79_device.patch
+file
+
+
+
+
+2012-11-26T22:31:37.000000Z
+18ef0de39c8ed0436ca4e0505ef3c249
+2012-07-05T08:26:47.035605Z
+32606
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1006
 
 211-ar933x_uart-improve-serial-clock-calculation.patch
 file
@@ -2882,16 +2882,16 @@ juhosg
 
 2311
 
-169-MIPS-ath79-allow-to-specify-bus-number-in-PCI-IRQ-ma.patch
+162-MIPS-ath79-add-clock-setup-for-the-QCA955X-SoCs.patch
 file
 
 
 
 
 2012-11-26T22:31:37.000000Z
-aff5ce14338f435dd23de329dda5c0aa
-2012-07-05T08:26:47.035605Z
-32606
+4da81a2a7538bb9f6435bf25aed4eb59
+2012-09-10T14:38:01.626991Z
+33362
 juhosg
 
 
@@ -2914,7 +2914,7 @@ juhosg
 
 
 
-940
+6120
 
 601-MIPS-ath79-add-more-register-defines.patch
 file
@@ -2950,16 +2950,16 @@ juhosg
 
 10408
 
-162-MIPS-ath79-add-clock-setup-for-the-QCA955X-SoCs.patch
+169-MIPS-ath79-allow-to-specify-bus-number-in-PCI-IRQ-ma.patch
 file
 
 
 
 
 2012-11-26T22:31:37.000000Z
-4da81a2a7538bb9f6435bf25aed4eb59
-2012-09-10T14:38:01.626991Z
-33362
+aff5ce14338f435dd23de329dda5c0aa
+2012-07-05T08:26:47.035605Z
+32606
 juhosg
 
 
@@ -2982,7 +2982,7 @@ juhosg
 
 
 
-6120
+940
 
 171-MIPS-ath79-add-support-for-the-Qualcomm-Atheros-AP13.patch
 file
@@ -3154,40 +3154,6 @@ juhosg
 
 1106
 
-420-net-ar71xx_mac_driver.patch
-file
-
-
-
-
-2012-11-26T22:31:37.000000Z
-347b8101962159049e4dc171e8d1327e
-2012-02-10T11:53:56.101198Z
-30410
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-836
-
 508-MIPS-ath79-prom-image-command-line-hack.patch
 file
 
@@ -3222,16 +3188,16 @@ juhosg
 
 1083
 
-153-MIPS-pci-ar71xx-use-dynamically-allocated-PCI-contro.patch
+420-net-ar71xx_mac_driver.patch
 file
 
 
 
 
 2012-11-26T22:31:37.000000Z
-28333f5475f3429bd8d7bd1ef19cd9a1
-2012-07-05T08:26:45.154339Z
-32605
+347b8101962159049e4dc171e8d1327e
+2012-02-10T11:53:56.101198Z
+30410
 juhosg
 
 
@@ -3254,7 +3220,7 @@ juhosg
 
 
 
-7030
+836
 
 141-MIPS-pci-ar724x-use-correct-value-for-AR724X_PCI_MEM.patch
 file
@@ -3290,17 +3256,17 @@ juhosg
 
 770
 
-630-MIPS-ath79-enable-dsp.patch
+153-MIPS-pci-ar71xx-use-dynamically-allocated-PCI-contro.patch
 file
 
 
 
 
 2012-11-26T22:31:37.000000Z
-64cb2a4fc5f5a76612a9041508a59e34
-2012-06-28T16:05:08.950059Z
-32520
-nbd
+28333f5475f3429bd8d7bd1ef19cd9a1
+2012-07-05T08:26:45.154339Z
+32605
+juhosg
 
 
 
@@ -3322,7 +3288,7 @@ nbd
 
 
 
-282
+7030
 
 168-MIPS-ath79-add-WMAC-registration-code-for-the-QCA955.patch
 file
@@ -3357,6 +3323,40 @@ juhosg
 
 
 2198
+
+630-MIPS-ath79-enable-dsp.patch
+file
+
+
+
+
+2012-11-26T22:31:37.000000Z
+64cb2a4fc5f5a76612a9041508a59e34
+2012-06-28T16:05:08.950059Z
+32520
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+282
 
 411-mtd-cfi_cmdset_0002-force-word-write.patch
 file
@@ -3460,40 +3460,6 @@ juhosg
 
 643
 
-113-MIPS-ath79-allow-to-use-board-specific-pci_plat_dev_.patch
-file
-
-
-
-
-2012-11-26T22:31:37.000000Z
-559db981433506b961ea766ade596c5b
-2012-05-05T13:56:35.468015Z
-31602
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4461
-
 432-spi-rb4xx-spi-driver.patch
 file
 
@@ -3527,6 +3493,40 @@ juhosg
 
 
 871
+
+113-MIPS-ath79-allow-to-use-board-specific-pci_plat_dev_.patch
+file
+
+
+
+
+2012-11-26T22:31:37.000000Z
+559db981433506b961ea766ade596c5b
+2012-05-05T13:56:35.468015Z
+31602
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4461
 
 410-mtd-rb750-nand-driver.patch
 file
@@ -3596,40 +3596,6 @@ juhosg
 
 2199
 
-148-MIPS-avoid-possible-resource-conflict-in-register_pc.patch
-file
-
-
-
-
-2012-11-26T22:31:37.000000Z
-836a123d052d538ee6efa28d4515bbcd
-2012-07-05T08:26:45.154339Z
-32605
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1087
-
 122-MIPS-ath79-add-clock-initialization-code-for-AR934X.patch
 file
 
@@ -3663,6 +3629,40 @@ juhosg
 
 
 7480
+
+148-MIPS-avoid-possible-resource-conflict-in-register_pc.patch
+file
+
+
+
+
+2012-11-26T22:31:37.000000Z
+836a123d052d538ee6efa28d4515bbcd
+2012-07-05T08:26:45.154339Z
+32605
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1087
 
 108-MIPS-ath79-fix-broken-ar724x_pci_-read-write-functio.patch
 file
@@ -3732,40 +3732,6 @@ juhosg
 
 5672
 
-140-MIPS-pci-ar724x-avoid-data-bus-error-due-to-a-missin.patch
-file
-
-
-
-
-2012-11-26T22:31:37.000000Z
-084b4cdd5eefcb1048a59bf681cd4866
-2012-07-05T08:26:45.154339Z
-32605
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2230
-
 431-spi-add-various-flags.patch
 file
 
@@ -3800,16 +3766,16 @@ juhosg
 
 511
 
-114-MIPS-ath79-add-support-for-the-PCI-host-controller-o.patch
+140-MIPS-pci-ar724x-avoid-data-bus-error-due-to-a-missin.patch
 file
 
 
 
 
 2012-11-26T22:31:37.000000Z
-ccf18e407483589cfee68d98a1d2b413
-2012-05-05T13:56:35.468015Z
-31602
+084b4cdd5eefcb1048a59bf681cd4866
+2012-07-05T08:26:45.154339Z
+32605
 juhosg
 
 
@@ -3832,7 +3798,7 @@ juhosg
 
 
 
-12267
+2230
 
 902-unaligned_access_hacks.patch
 file
@@ -3868,14 +3834,14 @@ juhosg
 
 2508
 
-124-MIPS-ath79-rework-IP2-IP3-interrupt-handling.patch
+114-MIPS-ath79-add-support-for-the-PCI-host-controller-o.patch
 file
 
 
 
 
 2012-11-26T22:31:37.000000Z
-93e1b0fd9edc17fad2984db46b64bdb3
+ccf18e407483589cfee68d98a1d2b413
 2012-05-05T13:56:35.468015Z
 31602
 juhosg
@@ -3900,7 +3866,7 @@ juhosg
 
 
 
-4695
+12267
 
 106-MIPS-ath79-use-io-accessor-macros-in-pci-ar724x.c.patch
 file
@@ -3935,6 +3901,40 @@ juhosg
 
 
 3969
+
+124-MIPS-ath79-rework-IP2-IP3-interrupt-handling.patch
+file
+
+
+
+
+2012-11-26T22:31:37.000000Z
+93e1b0fd9edc17fad2984db46b64bdb3
+2012-05-05T13:56:35.468015Z
+31602
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4695
 
 505-MIPS-ath79-add-ath79_gpio_function_select.patch
 file

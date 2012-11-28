@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/leon/patches
 svn://svn.openwrt.org/openwrt
 
@@ -94,14 +94,14 @@ kaloz
 
 1419
 
-003-smp_cpu_stuck_fix.patch
+015-dma_ops.patch
 file
 
 
 
 
 2012-11-26T22:31:59.000000Z
-51a7b346b50dba44bc07943ad51818f8
+0458f4a4dc1c21bb3252dc1c376acbe3
 2011-01-27T12:51:25.855755Z
 25139
 kaloz
@@ -126,7 +126,7 @@ kaloz
 
 
 
-850
+8870
 
 012-greth_amba_vendor_device.patch
 file
@@ -162,14 +162,14 @@ kaloz
 
 569
 
-015-dma_ops.patch
+003-smp_cpu_stuck_fix.patch
 file
 
 
 
 
 2012-11-26T22:31:59.000000Z
-0458f4a4dc1c21bb3252dc1c376acbe3
+51a7b346b50dba44bc07943ad51818f8
 2011-01-27T12:51:25.855755Z
 25139
 kaloz
@@ -194,7 +194,7 @@ kaloz
 
 
 
-8870
+850
 
 018-greth_compat_mode.patch
 file
@@ -298,14 +298,14 @@ kaloz
 
 963
 
-025-greth_bootloader_disable_device_node.patch
+014-timer_irqctrl_amba_vendor_device.patch
 file
 
 
 
 
 2012-11-26T22:31:59.000000Z
-1ec3571096c200374ec32cea3bd8cad6
+539818073266d6432f0681b365e0a99e
 2011-01-27T12:51:25.855755Z
 25139
 kaloz
@@ -330,41 +330,7 @@ kaloz
 
 
 
-789
-
-001-find_irq_and_timer_via_of.patch
-file
-
-
-
-
-2012-11-26T22:31:59.000000Z
-2522a3195977bb7366c977f429307bd7
-2012-09-14T15:37:12.118248Z
-33406
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1825
+1423
 
 009-remove_second_timer.patch
 file
@@ -400,17 +366,17 @@ kaloz
 
 7028
 
-014-timer_irqctrl_amba_vendor_device.patch
+001-find_irq_and_timer_via_of.patch
 file
 
 
 
 
 2012-11-26T22:31:59.000000Z
-539818073266d6432f0681b365e0a99e
-2011-01-27T12:51:25.855755Z
-25139
-kaloz
+2522a3195977bb7366c977f429307bd7
+2012-09-14T15:37:12.118248Z
+33406
+florian
 
 
 
@@ -432,16 +398,16 @@ kaloz
 
 
 
-1423
+1825
 
-026-greth_gbit_mac_set_ee_when_edcl.patch
+025-greth_bootloader_disable_device_node.patch
 file
 
 
 
 
 2012-11-26T22:31:59.000000Z
-4cdf5ac1bfed5a9726b283f76d4756ab
+1ec3571096c200374ec32cea3bd8cad6
 2011-01-27T12:51:25.855755Z
 25139
 kaloz
@@ -466,7 +432,7 @@ kaloz
 
 
 
-1104
+789
 
 010-apbuart_ampopts.patch
 file
@@ -501,6 +467,40 @@ kaloz
 
 
 1457
+
+026-greth_gbit_mac_set_ee_when_edcl.patch
+file
+
+
+
+
+2012-11-26T22:31:59.000000Z
+4cdf5ac1bfed5a9726b283f76d4756ab
+2011-01-27T12:51:25.855755Z
+25139
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1104
 
 005-avoid_openprom_duplicates.patch
 file

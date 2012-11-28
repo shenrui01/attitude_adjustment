@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/toolchain/gcc/patches/4.5-linaro
 svn://svn.openwrt.org/openwrt
 
@@ -162,40 +162,6 @@ kaloz
 
 473
 
-200-ppc_include_config_linux_h.patch
-file
-
-
-
-
-2012-11-26T22:31:27.000000Z
-266b6dde4cbb3ded2136497e7326ad1f
-2011-08-18T12:12:47.263513Z
-28041
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-545
-
 850-use_shared_libgcc.patch
 file
 
@@ -229,6 +195,40 @@ kaloz
 
 
 2078
+
+200-ppc_include_config_linux_h.patch
+file
+
+
+
+
+2012-11-26T22:31:27.000000Z
+266b6dde4cbb3ded2136497e7326ad1f
+2011-08-18T12:12:47.263513Z
+28041
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+545
 
 840-armv4_pass_fix-v4bx_to_ld.patch
 file
@@ -332,16 +332,16 @@ mirko
 
 8064
 
-995-fa526.patch
+302-c99-snprintf.patch
 file
 
 
 
 
 2012-11-26T22:31:27.000000Z
-ed5fee53a684f52526c4907c979aa12f
-2011-07-01T08:10:12.691795Z
-27326
+c913e2f73ab9f60b5e83b511262882a5
+2011-01-28T12:34:32.804697Z
+25195
 kaloz
 
 
@@ -364,7 +364,7 @@ kaloz
 
 
 
-10658
+265
 
 305-libmudflap-susv3-legacy.patch
 file
@@ -400,16 +400,16 @@ kaloz
 
 1405
 
-302-c99-snprintf.patch
+995-fa526.patch
 file
 
 
 
 
 2012-11-26T22:31:27.000000Z
-c913e2f73ab9f60b5e83b511262882a5
-2011-01-28T12:34:32.804697Z
-25195
+ed5fee53a684f52526c4907c979aa12f
+2011-07-01T08:10:12.691795Z
+27326
 kaloz
 
 
@@ -432,7 +432,7 @@ kaloz
 
 
 
-265
+10658
 
 600-ubicom_support.patch
 file
@@ -468,40 +468,6 @@ kaloz
 
 303633
 
-999-coldfire.patch
-file
-
-
-
-
-2012-11-26T22:31:27.000000Z
-31978c5f3ec84278f966e94e8334a618
-2011-06-07T00:13:56.912698Z
-27118
-mirko
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-301
-
 920-specs_nonfatal_getenv.patch
 file
 
@@ -535,6 +501,40 @@ jow
 
 
 442
+
+999-coldfire.patch
+file
+
+
+
+
+2012-11-26T22:31:27.000000Z
+31978c5f3ec84278f966e94e8334a618
+2011-06-07T00:13:56.912698Z
+27118
+mirko
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+301
 
 301-missing-execinfo_h.patch
 file

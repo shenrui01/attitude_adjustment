@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/generic/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -638,40 +638,6 @@ jogo
 
 2496
 
-870-hifn795x_byteswap.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-723f63b588c4efe08438f3abad2f90e0
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-539
-
 930-crashlog.patch
 file
 
@@ -705,6 +671,40 @@ juhosg
 
 
 7326
+
+870-hifn795x_byteswap.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+723f63b588c4efe08438f3abad2f90e0
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+539
 
 840-rtc7301.patch
 file
@@ -740,40 +740,6 @@ jogo
 
 6403
 
-601-netfilter_layer7_pktmatch.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-2858e248f8cf8c296fcfe1d414d8a038
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3865
-
 309-mips_fuse_workaround.patch
 file
 
@@ -807,6 +773,40 @@ nbd
 
 
 924
+
+601-netfilter_layer7_pktmatch.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+2858e248f8cf8c296fcfe1d414d8a038
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3865
 
 070-gpio-add-flags-to-export-GPIOs-when-requesting.patch
 file
@@ -978,40 +978,6 @@ jogo
 
 1351
 
-651-wireless_mesh_header.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-543bed5d83d9d5e2846d3a1fc0d40997
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-327
-
 308-mips-show-correct-cpu-name-for-24KEc.patch
 file
 
@@ -1045,6 +1011,40 @@ juhosg
 
 
 463
+
+651-wireless_mesh_header.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+543bed5d83d9d5e2846d3a1fc0d40997
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+327
 
 861-04_spi_gpio_implement_spi_delay.patch
 file
@@ -2134,17 +2134,17 @@ florian
 
 425
 
-460-cfi_cmdset_0002_no_erase_suspend.patch
+046-fq_codel-qdisc-backlog.patch
 file
 
 
 
 
 2012-11-26T22:31:43.000000Z
-244d98776610c50607647af6b528affd
-2012-02-02T08:23:54.955046Z
-29986
-jogo
+ba0072feeecacebc44d9b0050a24b170
+2012-09-26T14:17:17.327410Z
+33560
+juhosg
 
 
 
@@ -2166,7 +2166,7 @@ jogo
 
 
 
-432
+4599
 
 255-lib80211_kconfig_hacks.patch
 file
@@ -2202,17 +2202,17 @@ jogo
 
 416
 
-046-fq_codel-qdisc-backlog.patch
+460-cfi_cmdset_0002_no_erase_suspend.patch
 file
 
 
 
 
 2012-11-26T22:31:43.000000Z
-ba0072feeecacebc44d9b0050a24b170
-2012-09-26T14:17:17.327410Z
-33560
-juhosg
+244d98776610c50607647af6b528affd
+2012-02-02T08:23:54.955046Z
+29986
+jogo
 
 
 
@@ -2234,7 +2234,7 @@ juhosg
 
 
 
-4599
+432
 
 256-crypto_add_kconfig_prompts.patch
 file
@@ -2338,40 +2338,6 @@ hauke
 
 29963
 
-655-increase_skb_pad.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-aeb7931e8cb3d6821c526a37a6bd7129
-2012-05-27T14:43:58.196509Z
-31886
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-384
-
 642-bridge_port_isolate.patch
 file
 
@@ -2405,6 +2371,40 @@ juhosg
 
 
 3261
+
+655-increase_skb_pad.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+aeb7931e8cb3d6821c526a37a6bd7129
+2012-05-27T14:43:58.196509Z
+31886
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+384
 
 820-usb_add_usb_find_device_by_name.patch
 file
@@ -2542,40 +2542,6 @@ jogo
 
 1772
 
-477-mtd-m25p80-add-support-for-the-EON-EN25Q64-chip.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-7e753f3e914840f16e366e6f6310c748
-2012-08-26T09:27:56.787917Z
-33275
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-449
-
 941-ocf_20120127.patch
 file
 
@@ -2609,6 +2575,40 @@ florian
 
 
 5224
+
+477-mtd-m25p80-add-support-for-the-EON-EN25Q64-chip.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+7e753f3e914840f16e366e6f6310c748
+2012-08-26T09:27:56.787917Z
+33275
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+449
 
 644-bridge_optimize_netfilter_hooks.patch
 file
@@ -2644,40 +2644,6 @@ juhosg
 
 4481
 
-540-crypto-xz-decompression-support.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-ee3f1c870e51ffe7ac80f1fc8b1e8c09
-2012-03-03T14:10:27.322588Z
-30800
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3554
-
 202-reduce_module_size.patch
 file
 
@@ -2711,6 +2677,40 @@ nbd
 
 
 487
+
+540-crypto-xz-decompression-support.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+ee3f1c870e51ffe7ac80f1fc8b1e8c09
+2012-03-03T14:10:27.322588Z
+30800
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3554
 
 506-yaffs2-3.2_fix.patch
 file
@@ -2746,40 +2746,6 @@ juhosg
 
 8655
 
-835-gpiodev.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-aabe88f34b316add2c5532a5cf9857ab
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-835
-
 102-ehci_hcd_ignore_oc.patch
 file
 
@@ -2813,6 +2779,40 @@ jogo
 
 
 1529
+
+835-gpiodev.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+aabe88f34b316add2c5532a5cf9857ab
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+835
 
 980-update_arm_machtypes.patch
 file
@@ -2882,40 +2882,6 @@ jogo
 
 380
 
-604-netfilter_cisco_794x_iphone.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-93176a86f1984ec26394d2be0a515415
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4144
-
 050-rng_git_backport.patch
 file
 
@@ -2950,17 +2916,17 @@ florian
 
 23589
 
-258-netfilter_netlink_kconfig_hack.patch
+604-netfilter_cisco_794x_iphone.patch
 file
 
 
 
 
 2012-11-26T22:31:43.000000Z
-31f797c3286306ad971009f3e74b1cc4
-2012-03-12T00:09:23.724835Z
-30894
-jow
+93176a86f1984ec26394d2be0a515415
+2012-02-02T08:23:54.955046Z
+29986
+jogo
 
 
 
@@ -2982,7 +2948,7 @@ jow
 
 
 
-315
+4144
 
 702-phy_add_aneg_done_function.patch
 file
@@ -3018,16 +2984,50 @@ jogo
 
 1184
 
-252-mv_cesa_depends.patch
+258-netfilter_netlink_kconfig_hack.patch
 file
 
 
 
 
 2012-11-26T22:31:43.000000Z
-43d7479f3fda39c8ae2492ce0c926fd6
-2012-05-23T21:05:32.389936Z
-31848
+31f797c3286306ad971009f3e74b1cc4
+2012-03-12T00:09:23.724835Z
+30894
+jow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+315
+
+643-bridge_remove_ipv6_dependency.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+5a636ab1a1fc5409e8f9a0d4594f752f
+2012-03-12T17:32:38.404634Z
+30908
 juhosg
 
 
@@ -3050,7 +3050,7 @@ juhosg
 
 
 
-248
+3263
 
 306-mips_mem_functions_performance.patch
 file
@@ -3086,16 +3086,16 @@ jogo
 
 2238
 
-643-bridge_remove_ipv6_dependency.patch
+252-mv_cesa_depends.patch
 file
 
 
 
 
 2012-11-26T22:31:43.000000Z
-5a636ab1a1fc5409e8f9a0d4594f752f
-2012-03-12T17:32:38.404634Z
-30908
+43d7479f3fda39c8ae2492ce0c926fd6
+2012-05-23T21:05:32.389936Z
+31848
 juhosg
 
 
@@ -3118,7 +3118,7 @@ juhosg
 
 
 
-3263
+248
 
 450-mtd_plat_nand_chip_fixup.patch
 file
@@ -3188,40 +3188,6 @@ florian
 
 449
 
-475-mtd_cfi_cmdset_0002-add-buffer-write-cmd-timeout.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-dc98b1dc5fdc965fd43d5c3c7575d525
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-556
-
 321-powerpc_crtsavres_prereq.patch
 file
 
@@ -3255,6 +3221,40 @@ florian
 
 
 231
+
+475-mtd_cfi_cmdset_0002-add-buffer-write-cmd-timeout.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+dc98b1dc5fdc965fd43d5c3c7575d525
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+556
 
 230-openwrt_lzma_options.patch
 file
@@ -3290,14 +3290,14 @@ jogo
 
 2055
 
-410-mtd_info_move_forward_decl.patch
+401-partial_eraseblock_write.patch
 file
 
 
 
 
 2012-11-26T22:31:43.000000Z
-f0857e6b2997263b789abe929843117f
+f2d295b1652a21bcd32b65b1316aef2e
 2012-02-02T08:23:54.955046Z
 29986
 jogo
@@ -3322,7 +3322,7 @@ jogo
 
 
 
-403
+4416
 
 613-netfilter_optional_tcp_window_check.patch
 file
@@ -3358,14 +3358,14 @@ jogo
 
 1163
 
-401-partial_eraseblock_write.patch
+410-mtd_info_move_forward_decl.patch
 file
 
 
 
 
 2012-11-26T22:31:43.000000Z
-f2d295b1652a21bcd32b65b1316aef2e
+f0857e6b2997263b789abe929843117f
 2012-02-02T08:23:54.955046Z
 29986
 jogo
@@ -3390,41 +3390,7 @@ jogo
 
 
 
-4416
-
-830-ledtrig_morse.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-0abbeb308c308a3e733f2f10d7a200c1
-2012-05-07T20:11:43.407770Z
-31645
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-922
+403
 
 048-spi-Dont-call-prepare-unprepare-transfer-if-not-popu.patch
 file
@@ -3459,6 +3425,40 @@ jogo
 
 
 1600
+
+830-ledtrig_morse.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+0abbeb308c308a3e733f2f10d7a200c1
+2012-05-07T20:11:43.407770Z
+31645
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+922
 
 620-sched_esfq.patch
 file
@@ -3528,40 +3528,6 @@ jogo
 
 1563
 
-047-spi_message_queue.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-f5aa00ea3ef84013900c591dccbb4a92
-2012-06-06T13:31:30.908753Z
-32077
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-19369
-
 041-codel-use-Newton-method-instead-of-sqrt-and-divides.patch
 file
 
@@ -3596,17 +3562,17 @@ juhosg
 
 5943
 
-960-decompress_unlzo_fix.patch
+047-spi_message_queue.patch
 file
 
 
 
 
 2012-11-26T22:31:43.000000Z
-402f499ae030406a76ba48b0d7817f0b
-2012-02-02T08:23:54.955046Z
-29986
-jogo
+f5aa00ea3ef84013900c591dccbb4a92
+2012-06-06T13:31:30.908753Z
+32077
+florian
 
 
 
@@ -3628,7 +3594,7 @@ jogo
 
 
 
-423
+19369
 
 725-phy_rtl8306.patch
 file
@@ -3663,6 +3629,40 @@ nbd
 
 
 755
+
+960-decompress_unlzo_fix.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+402f499ae030406a76ba48b0d7817f0b
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+423
 
 442-block2mtd_probe.patch
 file
@@ -3732,40 +3732,6 @@ jogo
 
 570
 
-610-netfilter_match_bypass_default_checks.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-bb88bcd4faefce4faefff868d384e50e
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2555
-
 721-phy_packets.patch
 file
 
@@ -3799,6 +3765,40 @@ hauke
 
 
 4902
+
+610-netfilter_match_bypass_default_checks.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+bb88bcd4faefce4faefff868d384e50e
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2555
 
 700-swconfig.patch
 file
@@ -3936,40 +3936,6 @@ nbd
 
 679
 
-300-mips_expose_boot_raw.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-8e307f545ce2884a12e9cdbe769a2952
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-884
-
 728-phy-micrel.patch
 file
 
@@ -4003,6 +3969,40 @@ nbd
 
 
 812
+
+300-mips_expose_boot_raw.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+8e307f545ce2884a12e9cdbe769a2952
+2012-02-02T08:23:54.955046Z
+29986
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+884
 
 310-arm_module_unresolved_weak_sym.patch
 file
@@ -4174,40 +4174,6 @@ jogo
 
 16924
 
-850-glamo_headers.patch
-file
-
-
-
-
-2012-11-26T22:31:43.000000Z
-73cc3d37c68cb0d78a93a5cf444627dc
-2012-02-02T08:23:54.955046Z
-29986
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-837
-
 727-phy-rtl8367.patch
 file
 
@@ -4242,17 +4208,17 @@ juhosg
 
 726
 
-992-mpcore_wdt_fix_watchdog_counter_loading.patch
+850-glamo_headers.patch
 file
 
 
 
 
 2012-11-26T22:31:43.000000Z
-dfe2dd5b5471eb4ec792633c96d0531e
-2012-05-07T20:11:43.407770Z
-31645
-juhosg
+73cc3d37c68cb0d78a93a5cf444627dc
+2012-02-02T08:23:54.955046Z
+29986
+jogo
 
 
 
@@ -4274,7 +4240,7 @@ juhosg
 
 
 
-2363
+837
 
 504-yaffs_mutex_fix.patch
 file
@@ -4309,6 +4275,40 @@ jogo
 
 
 611
+
+992-mpcore_wdt_fix_watchdog_counter_loading.patch
+file
+
+
+
+
+2012-11-26T22:31:43.000000Z
+dfe2dd5b5471eb4ec792633c96d0531e
+2012-05-07T20:11:43.407770Z
+31645
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2363
 
 993-mpcore_wdt_fix_wdioc_setoptions_handling.patch
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/cns21xx/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -94,14 +94,14 @@ juhosg
 
 3774
 
-204-cns21xx-add-gec-device.patch
+103-cns21xx-usb-ohci-support.patch
 file
 
 
 
 
 2012-11-26T22:32:05.000000Z
-a53da5e0db117f5f69c35b6f31a23ac9
+b2aa22fd0257a8744744f8e3e6383faf
 2012-04-20T15:24:57.470742Z
 31379
 juhosg
@@ -126,7 +126,7 @@ juhosg
 
 
 
-4805
+5678
 
 202-cns21xx-add-watchdog-device.patch
 file
@@ -162,14 +162,14 @@ juhosg
 
 1710
 
-103-cns21xx-usb-ohci-support.patch
+204-cns21xx-add-gec-device.patch
 file
 
 
 
 
 2012-11-26T22:32:05.000000Z
-b2aa22fd0257a8744744f8e3e6383faf
+a53da5e0db117f5f69c35b6f31a23ac9
 2012-04-20T15:24:57.470742Z
 31379
 juhosg
@@ -194,7 +194,7 @@ juhosg
 
 
 
-5678
+4805
 
 302-cns21xx-mach-nsb3ast.patch
 file
@@ -332,40 +332,6 @@ juhosg
 
 2539
 
-106-cns21xx-gec-driver.patch
-file
-
-
-
-
-2012-11-26T22:32:05.000000Z
-0548cf3c7398847411ce4a6c4fe2bbd5
-2012-04-20T15:24:57.470742Z
-31379
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-64333
-
 002-arm-debugll-printk.patch
 file
 
@@ -400,14 +366,14 @@ juhosg
 
 480
 
-201-cns21xx-add-usb-devices.patch
+106-cns21xx-gec-driver.patch
 file
 
 
 
 
 2012-11-26T22:32:05.000000Z
-7c0695d7f3f5b2c11191e103bbd2a48c
+0548cf3c7398847411ce4a6c4fe2bbd5
 2012-04-20T15:24:57.470742Z
 31379
 juhosg
@@ -432,7 +398,7 @@ juhosg
 
 
 
-2593
+64333
 
 102-cns21xx-gpiolib-support.patch
 file
@@ -467,6 +433,40 @@ juhosg
 
 
 1932
+
+201-cns21xx-add-usb-devices.patch
+file
+
+
+
+
+2012-11-26T22:32:05.000000Z
+7c0695d7f3f5b2c11191e103bbd2a48c
+2012-04-20T15:24:57.470742Z
+31379
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2593
 
 301-cns21xx-mach-ns-k330.patch
 file

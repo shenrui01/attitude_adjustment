@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/cns3xxx/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -26,16 +26,16 @@ nbd
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-060-move_virtual_io_space.patch
+470-gpio_irq.patch
 file
 
 
 
 
 2012-11-26T22:31:54.000000Z
-2907ddb1caef38f39bec47f2aefc2950
-2012-09-19T23:49:58.407012Z
-33485
+1fae4af94d051b40ad5a1f29e188127c
+2012-10-07T23:25:31.405394Z
+33652
 nbd
 
 
@@ -58,7 +58,7 @@ nbd
 
 
 
-7330
+16360
 
 400-ethernet_fix_tx_csum_offload.patch
 file
@@ -94,16 +94,16 @@ nbd
 
 2471
 
-470-gpio_irq.patch
+060-move_virtual_io_space.patch
 file
 
 
 
 
 2012-11-26T22:31:54.000000Z
-1fae4af94d051b40ad5a1f29e188127c
-2012-10-07T23:25:31.405394Z
-33652
+2907ddb1caef38f39bec47f2aefc2950
+2012-09-19T23:49:58.407012Z
+33485
 nbd
 
 
@@ -126,7 +126,7 @@ nbd
 
 
 
-16360
+7330
 
 200-dwc_otg.patch
 file
@@ -264,16 +264,16 @@ juhosg
 
 1974
 
-430-ethernet_fix_tx_completion.patch
+061-twd_base.patch
 file
 
 
 
 
 2012-11-26T22:31:54.000000Z
-0d0b081458eb0aa0c44084c5ef1bbd99
-2012-09-22T00:34:53.640145Z
-33504
+3c181a860522f01c0fc0eb2ed2286748
+2012-09-19T23:50:02.911718Z
+33486
 nbd
 
 
@@ -296,41 +296,7 @@ nbd
 
 
 
-2507
-
-410-ethernet_fix_jumbo_frame.patch
-file
-
-
-
-
-2012-11-26T22:31:54.000000Z
-e6cdb7c010d875cec60595a61023e38c
-2012-09-22T00:34:49.225590Z
-33503
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13435
+545
 
 001-cns3xxx-clkdev-support.patch
 file
@@ -366,16 +332,16 @@ juhosg
 
 1394
 
-061-twd_base.patch
+410-ethernet_fix_jumbo_frame.patch
 file
 
 
 
 
 2012-11-26T22:31:54.000000Z
-3c181a860522f01c0fc0eb2ed2286748
-2012-09-19T23:50:02.911718Z
-33486
+e6cdb7c010d875cec60595a61023e38c
+2012-09-22T00:34:49.225590Z
+33503
 nbd
 
 
@@ -398,7 +364,41 @@ nbd
 
 
 
-545
+13435
+
+430-ethernet_fix_tx_completion.patch
+file
+
+
+
+
+2012-11-26T22:31:54.000000Z
+0d0b081458eb0aa0c44084c5ef1bbd99
+2012-09-22T00:34:53.640145Z
+33504
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2507
 
 052-cns3xxx_spi.patch
 file

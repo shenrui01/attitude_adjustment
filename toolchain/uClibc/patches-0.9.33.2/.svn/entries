@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/toolchain/uClibc/patches-0.9.33.2
 svn://svn.openwrt.org/openwrt
 
@@ -60,40 +60,6 @@ nbd
 
 244
 
-190-nptl_use_arch_default_stack_limit.patch
-file
-
-
-
-
-2012-11-26T22:31:29.000000Z
-64eda5e1aff0251e2c610e2ce4a4e580
-2012-05-15T13:42:32.964834Z
-31740
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-546
-
 350-use-fputs_unlocked.patch
 file
 
@@ -127,6 +93,40 @@ nbd
 
 
 709
+
+190-nptl_use_arch_default_stack_limit.patch
+file
+
+
+
+
+2012-11-26T22:31:29.000000Z
+64eda5e1aff0251e2c610e2ce4a4e580
+2012-05-15T13:42:32.964834Z
+31740
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+546
 
 600-ubicom32-uClibc.patch
 file
@@ -264,40 +264,6 @@ nbd
 
 1069
 
-480-powerpc_rel24_support.patch
-file
-
-
-
-
-2012-11-26T22:31:28.000000Z
-4db20a751e4a10817efac099a59ac084
-2012-05-15T13:42:32.964834Z
-31740
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-742
-
 170-math_finite.patch
 file
 
@@ -331,6 +297,40 @@ nbd
 
 
 640
+
+480-powerpc_rel24_support.patch
+file
+
+
+
+
+2012-11-26T22:31:28.000000Z
+4db20a751e4a10817efac099a59ac084
+2012-05-15T13:42:32.964834Z
+31740
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+742
 
 500-eventfd.patch
 file

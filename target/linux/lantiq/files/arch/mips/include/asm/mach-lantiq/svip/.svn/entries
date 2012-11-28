@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/lantiq/files/arch/mips/include/asm/mach-lantiq/svip
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ blogic
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-sys0_reg.h
-file
-
-
-
-
-2012-11-26T22:31:36.000000Z
-2886ed68607c32929c1ccd36144541c7
-2012-08-03T08:53:02.460175Z
-32953
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-8773
 
 irq.h
 file
@@ -94,14 +60,14 @@ blogic
 
 1127
 
-mps_reg.h
+sys0_reg.h
 file
 
 
 
 
 2012-11-26T22:31:36.000000Z
-6b91b7e66eb55cac9b007e524aebf33e
+2886ed68607c32929c1ccd36144541c7
 2012-08-03T08:53:02.460175Z
 32953
 blogic
@@ -126,16 +92,16 @@ blogic
 
 
 
-12853
+8773
 
-lantiq_soc.h
+svip_irq.h
 file
 
 
 
 
 2012-11-26T22:31:36.000000Z
-ad99f94f89b15de40ebf16fbb51bf34b
+775c88613f3b699a4cd799095a48842b
 2012-08-03T08:53:02.460175Z
 32953
 blogic
@@ -160,7 +126,7 @@ blogic
 
 
 
-2073
+1335
 
 sys1_reg.h
 file
@@ -196,14 +162,14 @@ blogic
 
 16230
 
-svip_irq.h
+lantiq_soc.h
 file
 
 
 
 
 2012-11-26T22:31:36.000000Z
-775c88613f3b699a4cd799095a48842b
+ad99f94f89b15de40ebf16fbb51bf34b
 2012-08-03T08:53:02.460175Z
 32953
 blogic
@@ -228,7 +194,41 @@ blogic
 
 
 
-1335
+2073
+
+mps_reg.h
+file
+
+
+
+
+2012-11-26T22:31:36.000000Z
+6b91b7e66eb55cac9b007e524aebf33e
+2012-08-03T08:53:02.460175Z
+32953
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12853
 
 sys2_reg.h
 file
@@ -298,40 +298,6 @@ blogic
 
 14673
 
-svip_pms.h
-file
-
-
-
-
-2012-11-26T22:31:36.000000Z
-233c3ea2ab85c0024e9b26a87830de1f
-2012-08-03T08:53:02.460175Z
-32953
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-717
-
 boot_reg.h
 file
 
@@ -365,6 +331,40 @@ blogic
 
 
 1557
+
+svip_pms.h
+file
+
+
+
+
+2012-11-26T22:31:36.000000Z
+233c3ea2ab85c0024e9b26a87830de1f
+2012-08-03T08:53:02.460175Z
+32953
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+717
 
 svip_dma.h
 file

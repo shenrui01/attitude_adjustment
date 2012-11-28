@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/scripts
 svn://svn.openwrt.org/openwrt
 
@@ -638,40 +638,6 @@ has-props
 
 5857
 
-ipkg-make-index.sh
-file
-
-
-
-
-2012-11-26T22:32:08.000000Z
-e4b32f95b8978508089b2079c4793bde
-2012-06-11T01:29:11.327970Z
-32187
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-789
-
 patch-specs.sh
 file
 
@@ -705,6 +671,40 @@ has-props
 
 
 1780
+
+ipkg-make-index.sh
+file
+
+
+
+
+2012-11-26T22:32:08.000000Z
+e4b32f95b8978508089b2079c4793bde
+2012-06-11T01:29:11.327970Z
+32187
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+789
 
 remote-gdb
 file
@@ -740,40 +740,6 @@ has-props
 
 1603
 
-feeds
-file
-
-
-
-
-2012-11-26T22:32:08.000000Z
-a6455f1a46e3a94a2a02f548e6a164eb
-2012-06-25T00:27:03.754594Z
-32499
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-14771
-
 patch-kernel.sh
 file
 
@@ -808,16 +774,16 @@ has-props
 
 1391
 
-slugimage.pl
+feeds
 file
 
 
 
 
 2012-11-26T22:32:08.000000Z
-e4a213b8616346338a7cb10722b1771b
-2008-09-23T18:29:44.564549Z
-12674
+a6455f1a46e3a94a2a02f548e6a164eb
+2012-06-25T00:27:03.754594Z
+32499
 nbd
 has-props
 
@@ -840,7 +806,7 @@ has-props
 
 
 
-41501
+14771
 
 ext-toolchain.sh
 file
@@ -875,6 +841,40 @@ has-props
 
 
 14490
+
+slugimage.pl
+file
+
+
+
+
+2012-11-26T22:32:08.000000Z
+e4a213b8616346338a7cb10722b1771b
+2008-09-23T18:29:44.564549Z
+12674
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+41501
 
 ipkg
 file
@@ -913,17 +913,17 @@ has-props
 flashing
 dir
 
-symlink-tree.sh
+bundle-libraries.sh
 file
 
 
 
 
 2012-11-26T22:32:08.000000Z
-b9d9aa7284d52310f6121cd1a89a4e34
-2009-12-10T20:52:45.462581Z
-18734
-nbd
+562e6ca10bb1a23e711ff649aac68099
+2012-09-09T22:37:32.473674Z
+33353
+jow
 has-props
 
 
@@ -945,7 +945,7 @@ has-props
 
 
 
-695
+2649
 
 rstrip.sh
 file
@@ -981,17 +981,17 @@ has-props
 
 800
 
-bundle-libraries.sh
+symlink-tree.sh
 file
 
 
 
 
 2012-11-26T22:32:08.000000Z
-562e6ca10bb1a23e711ff649aac68099
-2012-09-09T22:37:32.473674Z
-33353
-jow
+b9d9aa7284d52310f6121cd1a89a4e34
+2009-12-10T20:52:45.462581Z
+18734
+nbd
 has-props
 
 
@@ -1013,7 +1013,7 @@ has-props
 
 
 
-2649
+695
 
 dl_cleanup.py
 file

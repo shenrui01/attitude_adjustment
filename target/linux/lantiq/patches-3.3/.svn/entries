@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/lantiq/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -26,14 +26,14 @@ blogic
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-0002-xway-support.patch
+0016-falcon-VPE-softdog.patch
 file
 
 
 
 
 2012-11-26T22:31:35.000000Z
-be5a9fa01eedb2a7f7b893913c77faec
+d3523ca59c857cceed29280c230282d0
 2012-08-03T08:53:02.460175Z
 32953
 blogic
@@ -58,7 +58,7 @@ blogic
 
 
 
-45959
+5823
 
 0006-mtd-support.patch
 file
@@ -94,14 +94,14 @@ blogic
 
 3339
 
-0016-falcon-VPE-softdog.patch
+0002-xway-support.patch
 file
 
 
 
 
 2012-11-26T22:31:35.000000Z
-d3523ca59c857cceed29280c230282d0
+be5a9fa01eedb2a7f7b893913c77faec
 2012-08-03T08:53:02.460175Z
 32953
 blogic
@@ -126,7 +126,7 @@ blogic
 
 
 
-5823
+45959
 
 0018-cache-split.patch
 file
@@ -230,40 +230,6 @@ blogic
 
 3952
 
-0025-svip-cp1.patch
-file
-
-
-
-
-2012-11-26T22:31:35.000000Z
-5dda80a1a8da67a921833b65264062ea
-2012-08-03T08:53:02.460175Z
-32953
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2369
-
 0014-import-compat-headers.patch
 file
 
@@ -297,6 +263,40 @@ blogic
 
 
 4663050
+
+0025-svip-cp1.patch
+file
+
+
+
+
+2012-11-26T22:31:35.000000Z
+5dda80a1a8da67a921833b65264062ea
+2012-08-03T08:53:02.460175Z
+32953
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2369
 
 0007-usb-support.patch
 file
@@ -332,40 +332,6 @@ blogic
 
 2014
 
-0023-owrt-gpio-export.patch
-file
-
-
-
-
-2012-11-26T22:31:35.000000Z
-3f760151af27af2d5c83d9806aa7fb49
-2012-08-03T08:53:02.460175Z
-32953
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1696
-
 0010-watchdog-support.patch
 file
 
@@ -399,6 +365,40 @@ blogic
 
 
 1974
+
+0023-owrt-gpio-export.patch
+file
+
+
+
+
+2012-11-26T22:31:35.000000Z
+3f760151af27af2d5c83d9806aa7fb49
+2012-08-03T08:53:02.460175Z
+32953
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1696
 
 0020-owrt-atm.patch
 file
@@ -434,40 +434,6 @@ blogic
 
 2686
 
-0001-falcon-support.patch
-file
-
-
-
-
-2012-11-26T22:31:35.000000Z
-858e10d3b819e874bb5f8d303b8dc156
-2012-08-03T08:53:02.460175Z
-32953
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-800
-
 0008-spi-support.patch
 file
 
@@ -501,6 +467,40 @@ blogic
 
 
 2346
+
+0001-falcon-support.patch
+file
+
+
+
+
+2012-11-26T22:31:35.000000Z
+858e10d3b819e874bb5f8d303b8dc156
+2012-08-03T08:53:02.460175Z
+32953
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+800
 
 0019-owrt-mtd-split.patch
 file

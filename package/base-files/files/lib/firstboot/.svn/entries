@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/package/base-files/files/lib/firstboot
 svn://svn.openwrt.org/openwrt
 
@@ -162,40 +162,6 @@ florian
 
 224
 
-30_reset_copy_rom
-file
-
-
-
-
-2012-11-26T22:31:18.000000Z
-c906820b468d1bc036969053ecc84e2a
-2010-01-25T17:11:17.955488Z
-19331
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-228
-
 20_no_fo_mount_jffs
 file
 
@@ -229,6 +195,40 @@ florian
 
 
 325
+
+30_reset_copy_rom
+file
+
+
+
+
+2012-11-26T22:31:18.000000Z
+c906820b468d1bc036969053ecc84e2a
+2010-01-25T17:11:17.955488Z
+19331
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+228
 
 40_no_fo_copy_ramoverlay
 file
@@ -332,40 +332,6 @@ florian
 
 225
 
-50_pivot
-file
-
-
-
-
-2012-11-26T22:31:18.000000Z
-287023c3965c0a0c060dcb974c56e4f7
-2010-03-21T17:16:50.184472Z
-20356
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-383
-
 05_firstboot_skip
 file
 
@@ -399,6 +365,40 @@ florian
 
 
 115
+
+50_pivot
+file
+
+
+
+
+2012-11-26T22:31:18.000000Z
+287023c3965c0a0c060dcb974c56e4f7
+2010-03-21T17:16:50.184472Z
+20356
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+383
 
 10_no_fo_clear_overlay
 file

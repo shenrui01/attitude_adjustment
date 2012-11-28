@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/package/mac80211/patches
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ juhosg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-050-compat_firmware.patch
-file
-
-
-
-
-2012-11-26T22:31:22.000000Z
-ef9143ce2b8b2918f45b830d3ffbe274
-2012-09-08T11:10:54.896647Z
-33331
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1880
 
 502-ath9k_ahb_init.patch
 file
@@ -94,6 +60,40 @@ nbd
 
 693
 
+050-compat_firmware.patch
+file
+
+
+
+
+2012-11-26T22:31:22.000000Z
+ef9143ce2b8b2918f45b830d3ffbe274
+2012-09-08T11:10:54.896647Z
+33331
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1880
+
 420-ath5k_disable_fast_cc.patch
 file
 
@@ -127,40 +127,6 @@ nbd
 
 
 476
-
-820-b43-add-antenna-control.patch
-file
-
-
-
-
-2012-11-26T22:31:22.000000Z
-c9ca050e72b59a0cd34428e5a2724068
-2012-09-08T11:10:54.896647Z
-33331
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4076
 
 432-ath5k_add_pciids.patch
 file
@@ -196,16 +162,16 @@ nbd
 
 514
 
-403-ath_regd_optional.patch
+820-b43-add-antenna-control.patch
 file
 
 
 
 
 2012-11-26T22:31:22.000000Z
-245aa6a5387d1a2bbaf49f4877a7f490
-2012-05-30T01:01:06.845483Z
-32002
+c9ca050e72b59a0cd34428e5a2724068
+2012-09-08T11:10:54.896647Z
+33331
 nbd
 
 
@@ -228,7 +194,41 @@ nbd
 
 
 
-955
+4076
+
+010-no_pcmcia.patch
+file
+
+
+
+
+2012-11-26T22:31:22.000000Z
+31116f00e8f7e1bd3fb85a5a9c59f052
+2012-09-08T11:10:54.896647Z
+33331
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+546
 
 015-remove-rt2x00-options.patch
 file
@@ -264,16 +264,16 @@ nbd
 
 530
 
-010-no_pcmcia.patch
+403-ath_regd_optional.patch
 file
 
 
 
 
 2012-11-26T22:31:22.000000Z
-31116f00e8f7e1bd3fb85a5a9c59f052
-2012-09-08T11:10:54.896647Z
-33331
+245aa6a5387d1a2bbaf49f4877a7f490
+2012-05-30T01:01:06.845483Z
+32002
 nbd
 
 
@@ -296,7 +296,7 @@ nbd
 
 
 
-546
+955
 
 500-ath9k_eeprom_debugfs.patch
 file
@@ -400,16 +400,16 @@ nbd
 
 432
 
-000-disable_ethernet.patch
+402-ath9k-fix-invalid-mac-address-handling.patch
 file
 
 
 
 
 2012-11-26T22:31:22.000000Z
-9c2019d5ed7be0de5a022a7749ae957a
-2012-07-10T00:21:25.484920Z
-32655
+dcc7476ae09c3a6f6065fd96a4b38cb0
+2012-09-28T18:28:54.677706Z
+33583
 nbd
 
 
@@ -432,7 +432,7 @@ nbd
 
 
 
-455
+758
 
 009-remove_mac80211_module_dependence.patch
 file
@@ -468,16 +468,16 @@ nbd
 
 563
 
-402-ath9k-fix-invalid-mac-address-handling.patch
+000-disable_ethernet.patch
 file
 
 
 
 
 2012-11-26T22:31:22.000000Z
-dcc7476ae09c3a6f6065fd96a4b38cb0
-2012-09-28T18:28:54.677706Z
-33583
+9c2019d5ed7be0de5a022a7749ae957a
+2012-07-10T00:21:25.484920Z
+32655
 nbd
 
 
@@ -500,7 +500,7 @@ nbd
 
 
 
-758
+455
 
 016-remove_pid_algo.patch
 file
@@ -1046,40 +1046,6 @@ nbd
 
 3335
 
-411-ath5k_allow_adhoc_and_ap.patch
-file
-
-
-
-
-2012-11-26T22:31:22.000000Z
-16c73a2e28e928edab690cce284867c8
-2012-09-28T18:28:54.677706Z
-33583
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1787
-
 070-disable_codel.patch
 file
 
@@ -1113,6 +1079,40 @@ nbd
 
 
 713
+
+411-ath5k_allow_adhoc_and_ap.patch
+file
+
+
+
+
+2012-11-26T22:31:22.000000Z
+16c73a2e28e928edab690cce284867c8
+2012-09-28T18:28:54.677706Z
+33583
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1787
 
 564-ath9k_debugfs_diag.patch
 file
@@ -1148,40 +1148,6 @@ nbd
 
 3666
 
-604-rt2x00-add-CONFIG_RT2X00_LIB_EEPROM-option.patch
-file
-
-
-
-
-2012-11-26T22:31:22.000000Z
-4bf66cbf9c3fbd516142c51400cac7ee
-2012-07-10T00:21:25.484920Z
-32655
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-307
-
 511-ath9k_reduce_rxbuf.patch
 file
 
@@ -1215,6 +1181,40 @@ nbd
 
 
 398
+
+604-rt2x00-add-CONFIG_RT2X00_LIB_EEPROM-option.patch
+file
+
+
+
+
+2012-11-26T22:31:22.000000Z
+4bf66cbf9c3fbd516142c51400cac7ee
+2012-07-10T00:21:25.484920Z
+32655
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+307
 
 022-remove_crc8_and_cordic.patch
 file
@@ -1250,16 +1250,16 @@ nbd
 
 6146
 
-021-add_include_for_bcma.patch
+019-remove_ath5k_pci_option.patch
 file
 
 
 
 
 2012-11-26T22:31:22.000000Z
-41885f9a79f1027aee33ac4f5e0e5328
-2012-07-10T00:21:25.484920Z
-32655
+9580c53a102a6069556715ac065f79e4
+2012-09-08T11:10:54.896647Z
+33331
 nbd
 
 
@@ -1282,7 +1282,7 @@ nbd
 
 
 
-310
+232
 
 850-brcmsmac-add-support-for-BCM43224.patch
 file
@@ -1318,16 +1318,16 @@ hauke
 
 966
 
-019-remove_ath5k_pci_option.patch
+021-add_include_for_bcma.patch
 file
 
 
 
 
 2012-11-26T22:31:22.000000Z
-9580c53a102a6069556715ac065f79e4
-2012-09-08T11:10:54.896647Z
-33331
+41885f9a79f1027aee33ac4f5e0e5328
+2012-07-10T00:21:25.484920Z
+32655
 nbd
 
 
@@ -1350,7 +1350,7 @@ nbd
 
 
 
-232
+310
 
 008-disable_mesh.patch
 file
@@ -1420,17 +1420,17 @@ nbd
 
 648
 
-622-rt2x00-fix-rt3352-ext-pa.patch
+017-remove_ath9k_rc.patch
 file
 
 
 
 
 2012-11-26T22:31:22.000000Z
-e8b9a1b280a7cd7ec7f6fb9e02c10349
-2012-11-25T16:22:48.229966Z
-34361
-juhosg
+0002bace602457e9a417d948902b76bf
+2012-09-08T11:10:54.896647Z
+33331
+nbd
 
 
 
@@ -1452,7 +1452,7 @@ juhosg
 
 
 
-7449
+375
 
 521-ath9k_cur_txpower.patch
 file
@@ -1488,17 +1488,17 @@ nbd
 
 649
 
-017-remove_ath9k_rc.patch
+622-rt2x00-fix-rt3352-ext-pa.patch
 file
 
 
 
 
 2012-11-26T22:31:22.000000Z
-0002bace602457e9a417d948902b76bf
-2012-09-08T11:10:54.896647Z
-33331
-nbd
+e8b9a1b280a7cd7ec7f6fb9e02c10349
+2012-11-25T16:22:48.229966Z
+34361
+juhosg
 
 
 
@@ -1520,7 +1520,7 @@ nbd
 
 
 
-375
+7449
 
 003-disable_bt.patch
 file
@@ -1692,40 +1692,6 @@ nbd
 
 4245
 
-603-rt2x00-introduce-rt2x00eeprom.patch
-file
-
-
-
-
-2012-11-26T22:31:22.000000Z
-47836c40f474dd899cf726d81d92c3f7
-2012-09-28T18:28:54.677706Z
-33583
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-7802
-
 530-ath9k_fix_initvals.patch
 file
 
@@ -1759,6 +1725,40 @@ nbd
 
 
 13127
+
+603-rt2x00-introduce-rt2x00eeprom.patch
+file
+
+
+
+
+2012-11-26T22:31:22.000000Z
+47836c40f474dd899cf726d81d92c3f7
+2012-09-28T18:28:54.677706Z
+33583
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7802
 
 541-ath9k_extra_platform_leds.patch
 file
@@ -1862,40 +1862,6 @@ nbd
 
 5604
 
-566-ath9k_use_ieee80211_free_txskb.patch
-file
-
-
-
-
-2012-11-26T22:31:22.000000Z
-450d1632afd4367c94d8c47e086f0261
-2012-10-29T12:47:58.930706Z
-33990
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3869
-
 522-ath9k_per_chain_signal_strength.patch
 file
 
@@ -1929,6 +1895,40 @@ nbd
 
 
 12751
+
+566-ath9k_use_ieee80211_free_txskb.patch
+file
+
+
+
+
+2012-11-26T22:31:22.000000Z
+450d1632afd4367c94d8c47e086f0261
+2012-10-29T12:47:58.930706Z
+33990
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3869
 
 001-disable_b44.patch
 file
@@ -1964,40 +1964,6 @@ nbd
 
 237
 
-620-rt2x00-support-rt3352.patch
-file
-
-
-
-
-2012-11-26T22:31:22.000000Z
-77492694324faee5f505131dfb68f537
-2012-10-04T06:34:12.604839Z
-33615
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-17509
-
 110-disable_usb_compat.patch
 file
 
@@ -2031,6 +1997,40 @@ nbd
 
 
 1415
+
+620-rt2x00-support-rt3352.patch
+file
+
+
+
+
+2012-11-26T22:31:22.000000Z
+77492694324faee5f505131dfb68f537
+2012-10-04T06:34:12.604839Z
+33615
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+17509
 
 410-ath9k_allow_adhoc_and_ap.patch
 file
@@ -2066,40 +2066,6 @@ nbd
 
 330
 
-851-brcmsmac-start-adding-support-for-core-rev-28.patch
-file
-
-
-
-
-2012-11-26T22:31:22.000000Z
-518c84d42f5f4eea4050fd9522252455
-2012-10-17T18:54:05.058210Z
-33822
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3139
-
 300-pending_work.patch
 file
 
@@ -2133,6 +2099,40 @@ nbd
 
 
 30465
+
+851-brcmsmac-start-adding-support-for-core-rev-28.patch
+file
+
+
+
+
+2012-11-26T22:31:22.000000Z
+518c84d42f5f4eea4050fd9522252455
+2012-10-17T18:54:05.058210Z
+33822
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3139
 
 563-ath9k_rx_dma_stop_check.patch
 file

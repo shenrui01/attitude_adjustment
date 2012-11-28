@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/lantiq/files/arch/mips/lantiq/xway
 svn://svn.openwrt.org/openwrt
 
@@ -60,14 +60,14 @@ blogic
 
 24656
 
-mach-p2601hnfx.c
+dev-dwc_otg.c
 file
 
 
 
 
 2012-11-26T22:31:36.000000Z
-8df80fa5f80362297daa0be533d53d4f
+9d9889d1739888efc528fbec1807c8bf
 2012-05-27T16:13:02.432718Z
 31912
 blogic
@@ -92,7 +92,7 @@ blogic
 
 
 
-3048
+1678
 
 mach-gigasx76x.h
 file
@@ -128,14 +128,14 @@ blogic
 
 15037
 
-dev-dwc_otg.c
+mach-p2601hnfx.c
 file
 
 
 
 
 2012-11-26T22:31:36.000000Z
-9d9889d1739888efc528fbec1807c8bf
+8df80fa5f80362297daa0be533d53d4f
 2012-05-27T16:13:02.432718Z
 31912
 blogic
@@ -160,7 +160,7 @@ blogic
 
 
 
-1678
+3048
 
 sysctrl.c
 file
@@ -230,40 +230,6 @@ blogic
 
 3867
 
-dev-dwc_otg.h
-file
-
-
-
-
-2012-11-26T22:31:36.000000Z
-5f7f3f68997571a297596b8ed4983615
-2012-05-27T16:13:02.432718Z
-31912
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-455
-
 dev-wifi-rt2x00.c
 file
 
@@ -297,6 +263,40 @@ blogic
 
 
 840
+
+dev-dwc_otg.h
+file
+
+
+
+
+2012-11-26T22:31:36.000000Z
+5f7f3f68997571a297596b8ed4983615
+2012-05-27T16:13:02.432718Z
+31912
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+455
 
 clk.c
 file
@@ -366,40 +366,6 @@ blogic
 
 395
 
-mach-wbmr.c
-file
-
-
-
-
-2012-11-26T22:31:36.000000Z
-2502dbece97edede8a3067c7c8d1e573
-2012-05-27T16:13:02.432718Z
-31912
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2896
-
 prom.c
 file
 
@@ -433,6 +399,40 @@ blogic
 
 
 2191
+
+mach-wbmr.c
+file
+
+
+
+
+2012-11-26T22:31:36.000000Z
+2502dbece97edede8a3067c7c8d1e573
+2012-05-27T16:13:02.432718Z
+31912
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2896
 
 pci-ath-fixup.c
 file
@@ -468,40 +468,6 @@ has-props
 
 2657
 
-gptu.c
-file
-
-
-
-
-2012-11-26T22:31:36.000000Z
-c1eff3261077464b30746423371a0ba4
-2012-08-03T08:53:02.460175Z
-32953
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4455
-
 mach-fritz_ar9.c
 file
 
@@ -535,6 +501,40 @@ blogic
 
 
 2900
+
+gptu.c
+file
+
+
+
+
+2012-11-26T22:31:36.000000Z
+c1eff3261077464b30746423371a0ba4
+2012-08-03T08:53:02.460175Z
+32953
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4455
 
 timer.c
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/package/iptables/files/l7
 svn://svn.openwrt.org/openwrt
 
@@ -94,40 +94,6 @@ has-props
 
 1656
 
-ssl.pat
-file
-
-
-
-
-2012-11-26T22:31:20.000000Z
-c6698421723f87db9fc6d9c43b5e07ea
-2009-05-01T15:20:34.240067Z
-15544
-hauke
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-631
-
 ntp.pat
 file
 
@@ -161,6 +127,40 @@ has-props
 
 
 649
+
+ssl.pat
+file
+
+
+
+
+2012-11-26T22:31:20.000000Z
+c6698421723f87db9fc6d9c43b5e07ea
+2009-05-01T15:20:34.240067Z
+15544
+hauke
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+631
 
 ident.pat
 file
@@ -196,40 +196,6 @@ has-props
 
 575
 
-msnmessenger.pat
-file
-
-
-
-
-2012-11-26T22:31:20.000000Z
-c410016ed85dabdbb07c284d02a1abc4
-2009-05-01T15:20:34.240067Z
-15544
-hauke
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1180
-
 aim.pat
 file
 
@@ -263,6 +229,40 @@ has-props
 
 
 1170
+
+msnmessenger.pat
+file
+
+
+
+
+2012-11-26T22:31:20.000000Z
+c410016ed85dabdbb07c284d02a1abc4
+2009-05-01T15:20:34.240067Z
+15544
+hauke
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1180
 
 gnutella.pat
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/brcm63xx/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -604,40 +604,6 @@ jogo
 
 863
 
-016-spi-bcm63xx-fix-bcm6348-38.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-aec8014eaac88d0205f908c762de5c7d
-2012-06-17T16:17:29.038279Z
-32409
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4187
-
 106-bcm63xx_watchdog_section_mismatch.patch
 file
 
@@ -671,6 +637,40 @@ florian
 
 
 643
+
+016-spi-bcm63xx-fix-bcm6348-38.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+aec8014eaac88d0205f908c762de5c7d
+2012-06-17T16:17:29.038279Z
+32409
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4187
 
 100-MIPS-BCM63XX-add-missing-include-for-bcm63xx_gpio.h.patch
 file
@@ -740,40 +740,6 @@ jogo
 
 1335
 
-551-96348gw_a_leds.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-54e98b00e52d473a246094093df68d99
-2012-07-31T14:27:47.270455Z
-32924
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-426
-
 313-MIPS-BCM63XX-enable-pcie-for-BCM6362.patch
 file
 
@@ -807,6 +773,40 @@ jogo
 
 
 3221
+
+551-96348gw_a_leds.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+54e98b00e52d473a246094093df68d99
+2012-07-31T14:27:47.270455Z
+32924
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+426
 
 402-ehci-add-driver-for-bcm63xx-integrated-controller.patch
 file
@@ -842,40 +842,6 @@ jogo
 
 6636
 
-026-MIPS-BCM63XX-Move-the-PCI-initialization-into-its-ow.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-57bd6c85d11d21287285f1b4d3d6e6a7
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1693
-
 002-MIPS-BCM63XX-be-consistent-in-clock-bits-enable-nami.patch
 file
 
@@ -909,6 +875,40 @@ jogo
 
 
 3282
+
+026-MIPS-BCM63XX-Move-the-PCI-initialization-into-its-ow.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+57bd6c85d11d21287285f1b4d3d6e6a7
+2012-07-03T21:42:07.956236Z
+32591
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1693
 
 309-MIPS-BCM63XX-add-HSSPI-register-definitions.patch
 file
@@ -978,40 +978,6 @@ jogo
 
 12630
 
-415-bcm63xx_enet-add-support-for-bcm6368-internal-ethern.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-31d51e4487b8148abeea1b6bde36acc5
-2012-08-05T23:18:22.183250Z
-33005
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-40535
-
 019-MIPS-BCM63XX-add-RNG-peripheral-definitions.patch
 file
 
@@ -1045,6 +1011,40 @@ jogo
 
 
 3810
+
+415-bcm63xx_enet-add-support-for-bcm6368-internal-ethern.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+31d51e4487b8148abeea1b6bde36acc5
+2012-08-05T23:18:22.183250Z
+33005
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+40535
 
 413-bcm63xx_enet-disable-clock-when-uninitializing-devic.patch
 file
@@ -2134,16 +2134,16 @@ florian
 
 873
 
-023-MIPS-BCM63XX-Add-flash-type-detection.patch
+411-bcm63xx_enet-implement-reset_autoneg-ethtool.patch
 file
 
 
 
 
 2012-11-26T22:32:07.000000Z
-d3c20985eea52c371c137735b352fdb3
-2012-07-03T21:42:07.956236Z
-32591
+ae213d7ec92561926202cd9e564a3672
+2012-03-28T20:42:20.622237Z
+31129
 jogo
 
 
@@ -2166,7 +2166,7 @@ jogo
 
 
 
-4386
+1274
 
 507-board-MAGIC.patch
 file
@@ -2202,16 +2202,16 @@ florian
 
 1511
 
-411-bcm63xx_enet-implement-reset_autoneg-ethtool.patch
+023-MIPS-BCM63XX-Add-flash-type-detection.patch
 file
 
 
 
 
 2012-11-26T22:32:07.000000Z
-ae213d7ec92561926202cd9e564a3672
-2012-03-28T20:42:20.622237Z
-31129
+d3c20985eea52c371c137735b352fdb3
+2012-07-03T21:42:07.956236Z
+32591
 jogo
 
 
@@ -2234,7 +2234,7 @@ jogo
 
 
 
-1274
+4386
 
 410-NET-bcm63xx_enet-move-phy_-dis-connect-into-probe-re.patch
 file
@@ -2372,40 +2372,6 @@ jogo
 
 3147
 
-027-MIPS-BCM63XX-Add-PCIe-Support-for-BCM6328.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-4090b2626e0b5cbbab3413c0dd09eb72
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-13676
-
 305-missing_ext_irq_bits.patch
 file
 
@@ -2439,6 +2405,40 @@ jogo
 
 
 2771
+
+027-MIPS-BCM63XX-Add-PCIe-Support-for-BCM6328.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+4090b2626e0b5cbbab3413c0dd09eb72
+2012-07-03T21:42:07.956236Z
+32591
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13676
 
 408-6358-enet1-external-mii-clk.patch
 file
@@ -2474,40 +2474,6 @@ florian
 
 829
 
-439-MIPS-BCM63XX-wire-up-the-HS-SPI-controller-for-BCM63.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-53e2a730e3526c73e4d613ade3adad96
-2012-07-31T14:27:42.940262Z
-32923
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1857
-
 011-spi-add-Broadcom-BCM63xx-SPI-controller-driver.patch
 file
 
@@ -2541,6 +2507,40 @@ florian
 
 
 13979
+
+439-MIPS-BCM63XX-wire-up-the-HS-SPI-controller-for-BCM63.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+53e2a730e3526c73e4d613ade3adad96
+2012-07-31T14:27:42.940262Z
+32923
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1857
 
 001-MIPS-BCM63XX-fix-platform_devices-id.patch
 file
@@ -2576,40 +2576,6 @@ jogo
 
 1165
 
-307-MIPS-BCM63XX-allow-second-UART-on-BCM6328.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-59422bbdda5b93e1e9fdc8f41701ac63
-2012-07-03T21:42:07.956236Z
-32591
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-745
-
 418-bcm63xx_enet-store-the-number-of-ports-instead-of-ha.patch
 file
 
@@ -2643,6 +2609,40 @@ jogo
 
 
 3457
+
+307-MIPS-BCM63XX-allow-second-UART-on-BCM6328.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+59422bbdda5b93e1e9fdc8f41701ac63
+2012-07-03T21:42:07.956236Z
+32591
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+745
 
 520-bcm63xx-add-support-for-96368MVWG-board.patch
 file
@@ -3154,40 +3154,6 @@ jogo
 
 2589
 
-105-MTD-bcm63xxpart-use-correct-printk-format-for-partit.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-99c5dfb501a3cff24f97c50b9e3e204c
-2012-05-27T13:22:37.900992Z
-31880
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1005
-
 434-MIPS-BCM63XX-store-the-flash-type-in-global-variable.patch
 file
 
@@ -3222,14 +3188,14 @@ jogo
 
 3722
 
-101-MTD-bcm63xxpart-remove-unused-variable.patch
+105-MTD-bcm63xxpart-use-correct-printk-format-for-partit.patch
 file
 
 
 
 
 2012-11-26T22:32:07.000000Z
-8803954e358661b3a8f443553405b7f9
+99c5dfb501a3cff24f97c50b9e3e204c
 2012-05-27T13:22:37.900992Z
 31880
 jogo
@@ -3254,7 +3220,7 @@ jogo
 
 
 
-1139
+1005
 
 308-MIPS-BCM63XX-expose-the-HS-SPI-clock.patch
 file
@@ -3290,6 +3256,40 @@ jogo
 
 1071
 
+101-MTD-bcm63xxpart-remove-unused-variable.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+8803954e358661b3a8f443553405b7f9
+2012-05-27T13:22:37.900992Z
+31880
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1139
+
 400-ohci-add-driver-for-bcm63xx-integrated-controller.patch
 file
 
@@ -3323,40 +3323,6 @@ jogo
 
 
 6612
-
-513-board_livebox.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-419b454ce4140b59bb4cb88202eb5454
-2012-07-11T09:15:26.380288Z
-32661
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9018
 
 103-MTD-bcm63xxpart-make-fixed-part-length-calculation-m.patch
 file
@@ -3392,6 +3358,40 @@ jogo
 
 1731
 
+513-board_livebox.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+419b454ce4140b59bb4cb88202eb5454
+2012-07-11T09:15:26.380288Z
+32661
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9018
+
 527-board_dva-g3810bn-tl-1.patch
 file
 
@@ -3426,40 +3426,6 @@ florian
 
 1431
 
-108-BCM63XX-Add-register-definitions-for-USBD-depen.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-bfb649c90581147ff44c48c39c3e943d
-2012-08-05T23:18:22.183250Z
-33005
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2609
-
 005-MIPS-BCM63XX-add-BCM6368-SPI-clock-mask.patch
 file
 
@@ -3493,6 +3459,40 @@ jogo
 
 
 764
+
+108-BCM63XX-Add-register-definitions-for-USBD-depen.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+bfb649c90581147ff44c48c39c3e943d
+2012-08-05T23:18:22.183250Z
+33005
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2609
 
 523-MIPS-BCM63XX-add-963281TAN-reference-board.patch
 file
@@ -3596,40 +3596,6 @@ florian
 
 1501
 
-509-board_rta1320_16m.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-ef160ac794e9732160b164a2dc68e19d
-2012-08-13T09:55:04.437143Z
-33156
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1030
-
 006-MIPS-BCM63XX-define-SPI-register-sizes.patch
 file
 
@@ -3663,6 +3629,40 @@ jogo
 
 
 1007
+
+509-board_rta1320_16m.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+ef160ac794e9732160b164a2dc68e19d
+2012-08-13T09:55:04.437143Z
+33156
+florian
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1030
 
 504-board_dsl_274xb_rev_c.patch
 file
@@ -3936,40 +3936,6 @@ jogo
 
 381
 
-436-MTD-bcm63xxpart-allow-passing-a-caldata-offset.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-f8353ee62f3c43ac4f354534b8003421
-2012-07-31T14:27:31.023670Z
-32921
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3672
-
 018-MIPS-BCM63XX-add-support-for-ipsec-clock.patch
 file
 
@@ -4003,6 +3969,40 @@ jogo
 
 
 1290
+
+436-MTD-bcm63xxpart-allow-passing-a-caldata-offset.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+f8353ee62f3c43ac4f354534b8003421
+2012-07-31T14:27:31.023670Z
+32921
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3672
 
 441-MIPS-BCM63XX-enable-USB-for-BCM6362.patch
 file
@@ -4174,40 +4174,6 @@ florian
 
 448
 
-300-reset_buttons.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-8d12faec1154c5c01bce988e7084410d
-2012-07-31T14:27:25.903108Z
-32920
-jogo
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2866
-
 012-mtd-bcm63xxpart-handle-Broadcom-partition-order.patch
 file
 
@@ -4241,6 +4207,40 @@ jogo
 
 
 3514
+
+300-reset_buttons.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+8d12faec1154c5c01bce988e7084410d
+2012-07-31T14:27:25.903108Z
+32920
+jogo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2866
 
 442-MIPS-BCM63XX-enable-enetsw-for-BCM6362.patch
 file

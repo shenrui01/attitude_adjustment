@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux
 svn://svn.openwrt.org/openwrt
 
@@ -74,19 +74,19 @@ dir
 imx21
 dir
 
-ixp4xx
+cobalt
 dir
 
 brcm2708
 dir
 
-cobalt
-dir
-
-au1000
+ixp4xx
 dir
 
 cns21xx
+dir
+
+au1000
 dir
 
 sparc
@@ -98,10 +98,10 @@ dir
 mpc83xx
 dir
 
-brcm63xx
+mpc85xx
 dir
 
-mpc85xx
+brcm63xx
 dir
 
 Makefile
@@ -138,10 +138,10 @@ has-props
 
 373
 
-brcm47xx
+realview
 dir
 
-realview
+brcm47xx
 dir
 
 ubicom32

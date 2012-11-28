@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/package/base-files/files/etc
 svn://svn.openwrt.org/openwrt
 
@@ -60,40 +60,6 @@ svn:special
 
 19
 
-services
-file
-
-
-
-
-2012-11-26T22:31:19.000000Z
-e30a9085944e0dd94ab277a512298256
-2012-03-18T19:41:57.122166Z
-30982
-jow
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3017
-
 hotplug2-common.rules
 file
 
@@ -127,6 +93,40 @@ acinonyx
 
 
 833
+
+services
+file
+
+
+
+
+2012-11-26T22:31:19.000000Z
+e30a9085944e0dd94ab277a512298256
+2012-03-18T19:41:57.122166Z
+30982
+jow
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3017
 
 protocols
 file
@@ -162,6 +162,12 @@ has-props
 
 2478
 
+init.d
+dir
+
+uci-defaults
+dir
+
 shadow
 file
 
@@ -196,11 +202,39 @@ jow
 
 116
 
-uci-defaults
-dir
-
-init.d
-dir
+shells
+file
+
+
+
+
+2012-11-26T22:31:19.000000Z
+725ba6f40dff0612f61ecd3f171bb3e1
+2009-04-17T14:32:29.989894Z
+15245
+nico
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9
 
 inittab
 file
@@ -235,40 +269,6 @@ has-props
 
 
 136
-
-shells
-file
-
-
-
-
-2012-11-26T22:31:19.000000Z
-725ba6f40dff0612f61ecd3f171bb3e1
-2009-04-17T14:32:29.989894Z
-15245
-nico
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9
 
 rc.common
 file
@@ -372,40 +372,6 @@ jow
 
 132
 
-hotplug2-init.rules
-file
-
-
-
-
-2012-11-26T22:31:19.000000Z
-8dff805e4ada6565d9494849b9287562
-2011-02-01T16:37:53.234693Z
-25282
-acinonyx
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-80
-
 openwrt_release
 file
 
@@ -439,6 +405,40 @@ jow
 
 
 132
+
+hotplug2-init.rules
+file
+
+
+
+
+2012-11-26T22:31:19.000000Z
+8dff805e4ada6565d9494849b9287562
+2011-02-01T16:37:53.234693Z
+25282
+acinonyx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+80
 
 hosts
 file

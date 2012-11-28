@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/package
 svn://svn.openwrt.org/openwrt
 
@@ -77,10 +77,10 @@ dir
 iwcap
 dir
 
-mountd
+ixp4xx-microcode
 dir
 
-ixp4xx-microcode
+mountd
 dir
 
 e2fsprogs
@@ -89,10 +89,10 @@ dir
 redboot-ar231x
 dir
 
-vsc73x5-ucode
+uboot-kirkwood
 dir
 
-uboot-kirkwood
+vsc73x5-ucode
 dir
 
 relayd
@@ -101,22 +101,22 @@ dir
 compcache
 dir
 
-px5g
-dir
-
 openssl
 dir
 
-owsip
+px5g
 dir
 
 owipcalc
 dir
 
-udev
+owsip
 dir
 
 ps3-utils
+dir
+
+udev
 dir
 
 siit
@@ -233,13 +233,13 @@ dir
 swconfig
 dir
 
-toolchain
+uboot-ar71xx
 dir
 
 6in4
 dir
 
-uboot-ar71xx
+toolchain
 dir
 
 ebtables
@@ -260,19 +260,19 @@ dir
 usbreset
 dir
 
-zlib
+ltq-tapidemo
 dir
 
-ltq-tapidemo
+zlib
 dir
 
 gpioctl
 dir
 
-hostapd
+fuse
 dir
 
-fuse
+hostapd
 dir
 
 iptables
@@ -342,25 +342,25 @@ dir
 apex
 dir
 
-ocf-crypto-headers
-dir
-
 wprobe
 dir
 
-libnl
+ocf-crypto-headers
 dir
 
 opkg
 dir
 
+libnl
+dir
+
 switch
 dir
 
-goldfish-qemu
+libtool
 dir
 
-libtool
+goldfish-qemu
 dir
 
 dnsmasq
@@ -372,13 +372,13 @@ dir
 librpc
 dir
 
-linux-atm
+ubus
 dir
 
 uboot-lantiq
 dir
 
-ubus
+linux-atm
 dir
 
 kernel
@@ -393,10 +393,10 @@ dir
 6rd
 dir
 
-mac80211
+hostap-utils
 dir
 
-hostap-utils
+mac80211
 dir
 
 ep80579-drivers
@@ -417,16 +417,16 @@ dir
 uboot-pxa
 dir
 
-uci
-dir
-
 madwifi
 dir
 
-lua
+uci
 dir
 
 robocfg
+dir
+
+lua
 dir
 
 mmc_over_gpio

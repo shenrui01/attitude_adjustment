@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/goldfish/patches-2.6.30
 svn://svn.openwrt.org/openwrt
 
@@ -740,17 +740,17 @@ juhosg
 
 2115
 
-0060--ARM-Add-code-to-prevent-system-calls-from-being-re.patch
+0100-mmc-sd-Add-retries-in-re-detection.patch
 file
 
 
 
 
 2012-11-26T22:32:00.000000Z
-66cbdf6fb3623d989d15cee08a6acc7b
-2009-10-01T10:07:32.882701Z
-17804
-juhosg
+4049d4be1e346555b773367c4ab4ddae
+2009-06-14T20:42:33.301211Z
+16459
+nbd
 
 
 
@@ -772,41 +772,7 @@ juhosg
 
 
 
-1316
-
-0058-sched-Enable-might_sleep-before-initializing-driver.patch
-file
-
-
-
-
-2012-11-26T22:32:00.000000Z
-7d0fa0835f415785fee79ccad4e2e839
-2009-10-01T10:07:32.882701Z
-17804
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1334
+2040
 
 0093-mmc-Add-status-IRQ-and-status-callback-function-to.patch
 file
@@ -842,48 +808,14 @@ nbd
 
 787
 
-0100-mmc-sd-Add-retries-in-re-detection.patch
+0058-sched-Enable-might_sleep-before-initializing-driver.patch
 file
 
 
 
 
 2012-11-26T22:32:00.000000Z
-4049d4be1e346555b773367c4ab4ddae
-2009-06-14T20:42:33.301211Z
-16459
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2040
-
-0126--ARM-goldfish-POWER-New-power-supply-driver-for-g.patch
-file
-
-
-
-
-2012-11-26T22:32:00.000000Z
-20c39243dc6bd7f3a771328cc1c7b4e8
+7d0fa0835f415785fee79ccad4e2e839
 2009-10-01T10:07:32.882701Z
 17804
 juhosg
@@ -908,7 +840,75 @@ juhosg
 
 
 
-8534
+1334
+
+0060--ARM-Add-code-to-prevent-system-calls-from-being-re.patch
+file
+
+
+
+
+2012-11-26T22:32:00.000000Z
+66cbdf6fb3623d989d15cee08a6acc7b
+2009-10-01T10:07:32.882701Z
+17804
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1316
+
+0118--ARM-goldfish-Add-goldfish-platform.patch
+file
+
+
+
+
+2012-11-26T22:32:00.000000Z
+bda5e9c2e8c2ff33d094a0eecb152d98
+2009-06-15T00:08:20.095355Z
+16465
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+56450
 
 0123--ARM-goldfish-events-Add-event-driver-for-goldfis.patch
 file
@@ -944,17 +944,17 @@ nbd
 
 6986
 
-0118--ARM-goldfish-Add-goldfish-platform.patch
+0126--ARM-goldfish-POWER-New-power-supply-driver-for-g.patch
 file
 
 
 
 
 2012-11-26T22:32:00.000000Z
-bda5e9c2e8c2ff33d094a0eecb152d98
-2009-06-15T00:08:20.095355Z
-16465
-nbd
+20c39243dc6bd7f3a771328cc1c7b4e8
+2009-10-01T10:07:32.882701Z
+17804
+juhosg
 
 
 
@@ -976,7 +976,7 @@ nbd
 
 
 
-56450
+8534
 
 0129--ARM-goldfish-qemutrace-Kernel-instrumentation-fo.patch
 file

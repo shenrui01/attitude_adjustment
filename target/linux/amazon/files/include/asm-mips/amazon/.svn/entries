@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/amazon/files/include/asm-mips/amazon
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ hauke
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-irq.h
-file
-
-
-
-
-2012-11-26T22:31:31.000000Z
-8fdddf9a072adc18263826bb09e0d69e
-2007-07-23T22:10:11.386635Z
-8137
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9394
 
 ifx_ssc_defines.h
 file
@@ -93,6 +59,40 @@ blogic
 
 
 25562
+
+irq.h
+file
+
+
+
+
+2012-11-26T22:31:31.000000Z
+8fdddf9a072adc18263826bb09e0d69e
+2007-07-23T22:10:11.386635Z
+8137
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9394
 
 ifx_peripheral_definitions.h
 file
@@ -162,40 +162,6 @@ blogic
 
 7621
 
-ifx_ssc.h
-file
-
-
-
-
-2012-11-26T22:31:31.000000Z
-d6eb61317d01430711267e253b345771
-2007-07-23T22:10:11.386635Z
-8137
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9184
-
 amazon_sw.h
 file
 
@@ -229,6 +195,40 @@ hauke
 
 
 4043
+
+ifx_ssc.h
+file
+
+
+
+
+2012-11-26T22:31:31.000000Z
+d6eb61317d01430711267e253b345771
+2007-07-23T22:10:11.386635Z
+8137
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9184
 
 adm6996.h
 file
@@ -400,40 +400,6 @@ blogic
 
 3496
 
-amazon_mei_app_ioctl.h
-file
-
-
-
-
-2012-11-26T22:31:31.000000Z
-0b9dc3eafcf260979b460fa43953c1fc
-2007-07-23T22:10:11.386635Z
-8137
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-47545
-
 amazon_mei_ioctl.h
 file
 
@@ -467,6 +433,40 @@ blogic
 
 
 29833
+
+amazon_mei_app_ioctl.h
+file
+
+
+
+
+2012-11-26T22:31:31.000000Z
+0b9dc3eafcf260979b460fa43953c1fc
+2007-07-23T22:10:11.386635Z
+8137
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+47545
 
 atm_defines.h
 file

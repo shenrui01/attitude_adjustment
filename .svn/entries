@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment
 svn://svn.openwrt.org/openwrt
 
@@ -78,40 +78,6 @@ dir
 package
 dir
 
-feeds.conf.default
-file
-
-
-
-
-2012-11-26T22:32:08.000000Z
-cd89124ea7a63ef361d023d616258bdd
-2012-10-05T10:44:43.805129Z
-33627
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-595
-
 README
 file
 
@@ -146,6 +112,43 @@ has-props
 
 1220
 
+feeds.conf.default
+file
+
+
+
+
+2012-11-26T22:32:08.000000Z
+cd89124ea7a63ef361d023d616258bdd
+2012-10-05T10:44:43.805129Z
+33627
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+595
+
+tools
+dir
+
 rules.mk
 file
 
@@ -179,9 +182,6 @@ has-props
 
 
 9466
-
-tools
-dir
 
 .gitignore
 file

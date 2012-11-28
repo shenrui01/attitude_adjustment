@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/include/site
 svn://svn.openwrt.org/openwrt
 
@@ -502,18 +502,17 @@ nbd
 
 694
 
-sparc-linux
+m68k-openwrt-linux-gnu
 file
 
 
 
 
 2012-11-26T22:31:29.000000Z
-a495607909fe5cb0a516035c97aa19ed
-2012-09-14T15:36:41.996347Z
-33405
-florian
-has-props
+c56d38bab275361c9f97a1db03bb670f
+2009-06-21T18:34:07.233864Z
+16538
+kaloz
 
 
 
@@ -534,7 +533,8 @@ has-props
 
 
 
-694
+
+79
 
 mips-linux
 file
@@ -570,17 +570,18 @@ has-props
 
 694
 
-m68k-openwrt-linux-gnu
+sparc-linux
 file
 
 
 
 
 2012-11-26T22:31:29.000000Z
-c56d38bab275361c9f97a1db03bb670f
-2009-06-21T18:34:07.233864Z
-16538
-kaloz
+a495607909fe5cb0a516035c97aa19ed
+2012-09-14T15:36:41.996347Z
+33405
+florian
+has-props
 
 
 
@@ -601,8 +602,7 @@ kaloz
 
 
 
-
-79
+694
 
 armeb-openwrt-linux-gnu
 file
@@ -672,40 +672,6 @@ has-props
 
 83
 
-i486-openwrt-linux-gnu
-file
-
-
-
-
-2012-11-26T22:31:29.000000Z
-f9db20f5e2ed5a6cd90a448631741106
-2009-01-08T01:49:11.690142Z
-13931
-nico
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-79
-
 mips64-openwrt-linux-uclibc
 file
 
@@ -740,6 +706,40 @@ nbd
 
 84
 
+i486-openwrt-linux-gnu
+file
+
+
+
+
+2012-11-26T22:31:29.000000Z
+f9db20f5e2ed5a6cd90a448631741106
+2009-01-08T01:49:11.690142Z
+13931
+nico
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+79
+
 i686-openwrt-linux-gnu
 file
 
@@ -751,6 +751,40 @@ file
 2009-01-08T01:49:11.690142Z
 13931
 nico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+79
+
+m68k-openwrt-linux-uclibc
+file
+
+
+
+
+2012-11-26T22:31:29.000000Z
+c56d38bab275361c9f97a1db03bb670f
+2009-06-21T18:34:07.233864Z
+16538
+kaloz
 
 
 
@@ -808,40 +842,6 @@ has-props
 
 81
 
-m68k-openwrt-linux-uclibc
-file
-
-
-
-
-2012-11-26T22:31:29.000000Z
-c56d38bab275361c9f97a1db03bb670f
-2009-06-21T18:34:07.233864Z
-16538
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-79
-
 x86_64-openwrt-linux-gnu
 file
 
@@ -875,40 +875,6 @@ has-props
 
 
 81
-
-cris-openwrt-linux-gnu
-file
-
-
-
-
-2012-11-26T22:31:29.000000Z
-c55b468bb2086fc6cc96a4ea9be001e7
-2009-01-08T01:49:11.690142Z
-13931
-nico
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-79
 
 arm-openwrt-linux-gnueabi
 file
@@ -944,6 +910,40 @@ has-props
 
 78
 
+cris-openwrt-linux-gnu
+file
+
+
+
+
+2012-11-26T22:31:29.000000Z
+c55b468bb2086fc6cc96a4ea9be001e7
+2009-01-08T01:49:11.690142Z
+13931
+nico
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+79
+
 m68k-linux
 file
 
@@ -978,40 +978,6 @@ nbd
 
 637
 
-mips64el-openwrt-linux-gnu
-file
-
-
-
-
-2012-11-26T22:31:29.000000Z
-2d2c4bdc9c5a32eecbf19475c0d164af
-2009-04-18T17:03:55.057985Z
-15249
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-81
-
 armeb-linux
 file
 
@@ -1045,6 +1011,40 @@ has-props
 
 
 694
+
+mips64el-openwrt-linux-gnu
+file
+
+
+
+
+2012-11-26T22:31:29.000000Z
+2d2c4bdc9c5a32eecbf19475c0d164af
+2009-04-18T17:03:55.057985Z
+15249
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+81
 
 i486-linux
 file

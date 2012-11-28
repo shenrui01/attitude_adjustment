@@ -1,7 +1,7 @@
 10
 
 dir
-34389
+34398
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/ramips/files/drivers/usb/dwc_otg
 svn://svn.openwrt.org/openwrt
 
@@ -196,40 +196,6 @@ has-props
 
 3103
 
-dwc_otg_hcd_queue.c
-file
-
-
-
-
-2012-11-26T22:31:39.000000Z
-c7c7be960fd39d153b191821cffba7b9
-2011-08-15T14:11:55.443169Z
-27997
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-20040
-
 dwc_otg_pcd_intr.c
 file
 
@@ -264,17 +230,17 @@ has-props
 
 102176
 
-dwc_otg_hcd.h
+dwc_otg_hcd_queue.c
 file
 
 
 
 
 2012-11-26T22:31:39.000000Z
-64ae7afc8a7ab9a76bfa9fefb3bbd48f
-2012-07-24T20:38:55.082045Z
-32823
-blogic
+c7c7be960fd39d153b191821cffba7b9
+2011-08-15T14:11:55.443169Z
+27997
+juhosg
 has-props
 
 
@@ -296,7 +262,7 @@ has-props
 
 
 
-21906
+20040
 
 dwc_otg_cil_intr.c
 file
@@ -332,6 +298,40 @@ has-props
 
 26732
 
+dwc_otg_hcd.h
+file
+
+
+
+
+2012-11-26T22:31:39.000000Z
+64ae7afc8a7ab9a76bfa9fefb3bbd48f
+2012-07-24T20:38:55.082045Z
+32823
+blogic
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21906
+
 dwc_otg_regs.h
 file
 
@@ -366,40 +366,6 @@ has-props
 
 56084
 
-dwc_otg_pcd.c
-file
-
-
-
-
-2012-11-26T22:31:39.000000Z
-fc4a4587a2b69426e245a6f775019370
-2012-07-24T20:38:55.082045Z
-32823
-blogic
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-66598
-
 dummy_audio.c
 file
 
@@ -433,6 +399,40 @@ has-props
 
 
 42133
+
+dwc_otg_pcd.c
+file
+
+
+
+
+2012-11-26T22:31:39.000000Z
+fc4a4587a2b69426e245a6f775019370
+2012-07-24T20:38:55.082045Z
+32823
+blogic
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+66598
 
 dwc_otg_cil.c
 file
