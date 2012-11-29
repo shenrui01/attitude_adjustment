@@ -156,8 +156,15 @@ static struct resource rt305x_esw_resources[] = {
 };
 
 struct rt305x_esw_platform_data rt305x_esw_data = {
+	/* All ports are LAN ports. */
 	.vlan_config		= RT305X_ESW_VLAN_CONFIG_NONE,
 	.reg_initval_fct2	= 0x00d6500c,
+	/*
+	 * ext phy base addr 31, enable port 5 polling, rx/tx clock skew 1,
+	 * turbo mii off, rgmi 3.3v off
+	 * port5: disabled
+	 * port6: enabled, gige, full-duplex, rx/tx-flow-control
+	 */
 	.reg_initval_fpa2	= 0x3f502b28,
 };
 
@@ -208,7 +215,15 @@ static struct platform_device rt305x_wifi_device = {
 
 void __init rt305x_register_wifi(void)
 {
+	u32 t;
 	rt305x_wifi_data.eeprom_file_name = "RT305X.eeprom";
+
+	if (soc_is_rt3352() || soc_is_rt5350()) {
+		t = rt305x_sysc_rr(SYSC_REG_SYSTEM_CONFIG);
+		t &= RT3352_SYSCFG0_XTAL_SEL;
+		if (!t)
+			rt305x_wifi_data.clk_is_20mhz = 1;
+	}
 	platform_device_register(&rt305x_wifi_device);
 }
 
@@ -409,7 +424,7 @@ void __init rt305x_register_usb(void)
 {
 	if (soc_is_rt305x() || soc_is_rt3350()) {
 		platform_device_register(&rt305x_dwc_otg_device);
-	} else if (soc_is_rt3352()) {
+	} else if (soc_is_rt3352() || soc_is_rt5350()) {
 		platform_device_register(&rt3352_ehci_device);
 		platform_device_register(&rt3352_ohci_device);
 	} else {
