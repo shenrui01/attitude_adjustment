@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/ubicom32/files/arch/ubicom32/include/asm
 svn://svn.openwrt.org/openwrt
 
@@ -706,40 +706,6 @@ kaloz
 
 1357
 
-flat.h
-file
-
-
-
-
-2012-11-26T22:31:30.000000Z
-1efcf8d11345cef74e6e92d624a4c273
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2505
-
 a.out.h
 file
 
@@ -773,6 +739,40 @@ kaloz
 
 
 1746
+
+flat.h
+file
+
+
+
+
+2012-11-26T22:31:30.000000Z
+1efcf8d11345cef74e6e92d624a4c273
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2505
 
 namei.h
 file
@@ -842,40 +842,6 @@ kaloz
 
 1892
 
-auxvec.h
-file
-
-
-
-
-2012-11-26T22:31:30.000000Z
-b5c7271b8cec0ab2369da77f92e66c87
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1158
-
 irq.h
 file
 
@@ -909,6 +875,40 @@ kaloz
 
 
 1420
+
+auxvec.h
+file
+
+
+
+
+2012-11-26T22:31:30.000000Z
+b5c7271b8cec0ab2369da77f92e66c87
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1158
 
 ioctls.h
 file
@@ -978,40 +978,6 @@ kaloz
 
 1951
 
-bugs.h
-file
-
-
-
-
-2012-11-26T22:31:30.000000Z
-64f815ca400f3134e79521286e6024d7
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1315
-
 bitops.h
 file
 
@@ -1045,6 +1011,40 @@ kaloz
 
 
 3997
+
+bugs.h
+file
+
+
+
+
+2012-11-26T22:31:30.000000Z
+64f815ca400f3134e79521286e6024d7
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1315
 
 machdep.h
 file
@@ -2100,6 +2100,40 @@ kaloz
 
 5081
 
+page_offset.h
+file
+
+
+
+
+2012-11-26T22:31:30.000000Z
+6695d954e8753ed271f683fc9eeb1290
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1223
+
 thread_info.h
 file
 
@@ -2168,40 +2202,6 @@ kaloz
 
 6816
 
-page_offset.h
-file
-
-
-
-
-2012-11-26T22:31:30.000000Z
-6695d954e8753ed271f683fc9eeb1290
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1223
-
 system.h
 file
 
@@ -2235,40 +2235,6 @@ kaloz
 
 
 3179
-
-cpu.h
-file
-
-
-
-
-2012-11-26T22:31:30.000000Z
-fad20e784baba055f5e3ad2e15a30c16
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1470
 
 resource.h
 file
@@ -2304,6 +2270,40 @@ kaloz
 
 1162
 
+cpu.h
+file
+
+
+
+
+2012-11-26T22:31:30.000000Z
+fad20e784baba055f5e3ad2e15a30c16
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1470
+
 ip5000-asm.h
 file
 
@@ -2338,40 +2338,6 @@ kaloz
 
 3714
 
-scatterlist.h
-file
-
-
-
-
-2012-11-26T22:31:30.000000Z
-a6107149ff7ac3bf3d3cef67b4e4a81f
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1514
-
 audio.h
 file
 
@@ -2405,6 +2371,40 @@ kaloz
 
 
 1415
+
+scatterlist.h
+file
+
+
+
+
+2012-11-26T22:31:30.000000Z
+a6107149ff7ac3bf3d3cef67b4e4a81f
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1514
 
 unistd.h
 file
@@ -2474,40 +2474,6 @@ kaloz
 
 6764
 
-sockios.h
-file
-
-
-
-
-2012-11-26T22:31:30.000000Z
-a4cde324f235b3254c5a8b26d560a43b
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1408
-
 ubicom32sd.h
 file
 
@@ -2542,14 +2508,14 @@ kaloz
 
 1333
 
-topology.h
+sockios.h
 file
 
 
 
 
 2012-11-26T22:31:30.000000Z
-151fae0944da0763b27fd21dbadce9ee
+a4cde324f235b3254c5a8b26d560a43b
 2010-02-22T13:54:47.420209Z
 19815
 kaloz
@@ -2574,7 +2540,7 @@ kaloz
 
 
 
-1173
+1408
 
 kmap_types.h
 file
@@ -2610,14 +2576,14 @@ kaloz
 
 1354
 
-vga.h
+topology.h
 file
 
 
 
 
 2012-11-26T22:31:30.000000Z
-895f4abc3d93ba55106d7a709eeaa6c2
+151fae0944da0763b27fd21dbadce9ee
 2010-02-22T13:54:47.420209Z
 19815
 kaloz
@@ -2642,7 +2608,7 @@ kaloz
 
 
 
-2061
+1173
 
 switch-dev.h
 file
@@ -2678,6 +2644,40 @@ kaloz
 
 1432
 
+vga.h
+file
+
+
+
+
+2012-11-26T22:31:30.000000Z
+895f4abc3d93ba55106d7a709eeaa6c2
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2061
+
 stacktrace.h
 file
 
@@ -2711,40 +2711,6 @@ kaloz
 
 
 2359
-
-errno.h
-file
-
-
-
-
-2012-11-26T22:31:30.000000Z
-7b0c679e3beae3cf79affe0da353ccb4
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1143
 
 ocm_text.lds.inc
 file
@@ -2780,6 +2746,40 @@ kaloz
 
 4618
 
+errno.h
+file
+
+
+
+
+2012-11-26T22:31:30.000000Z
+7b0c679e3beae3cf79affe0da353ccb4
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1143
+
 timex.h
 file
 
@@ -2814,14 +2814,14 @@ kaloz
 
 1739
 
-vdc_tio.h
+sigcontext.h
 file
 
 
 
 
 2012-11-26T22:31:30.000000Z
-eef0dd9c0f87508dc28699b00fdfb991
+25b5ad6a95072980fb2774d032181026
 2010-02-22T13:54:47.420209Z
 19815
 kaloz
@@ -2846,7 +2846,7 @@ kaloz
 
 
 
-3257
+1221
 
 board.h
 file
@@ -2882,14 +2882,14 @@ kaloz
 
 1214
 
-sigcontext.h
+vdc_tio.h
 file
 
 
 
 
 2012-11-26T22:31:30.000000Z
-25b5ad6a95072980fb2774d032181026
+eef0dd9c0f87508dc28699b00fdfb991
 2010-02-22T13:54:47.420209Z
 19815
 kaloz
@@ -2914,7 +2914,7 @@ kaloz
 
 
 
-1221
+3257
 
 mman.h
 file
@@ -3052,40 +3052,6 @@ kaloz
 
 1792
 
-unaligned.h
-file
-
-
-
-
-2012-11-26T22:31:30.000000Z
-40576f032addab4432bc062a8549d2e9
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1501
-
 spinlock_types.h
 file
 
@@ -3120,14 +3086,14 @@ kaloz
 
 1418
 
-ocm_size.h
+unaligned.h
 file
 
 
 
 
 2012-11-26T22:31:30.000000Z
-18b60379aa1cfcbdc235af60e9e3be21
+40576f032addab4432bc062a8549d2e9
 2010-02-22T13:54:47.420209Z
 19815
 kaloz
@@ -3152,7 +3118,41 @@ kaloz
 
 
 
-101
+1501
+
+ubicom32hid.h
+file
+
+
+
+
+2012-11-26T22:31:30.000000Z
+19a776f294f7d14b68741379a025242a
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2870
 
 irqflags.h
 file
@@ -3188,14 +3188,14 @@ kaloz
 
 2367
 
-ubicom32hid.h
+ocm_size.h
 file
 
 
 
 
 2012-11-26T22:31:30.000000Z
-19a776f294f7d14b68741379a025242a
+18b60379aa1cfcbdc235af60e9e3be21
 2010-02-22T13:54:47.420209Z
 19815
 kaloz
@@ -3220,7 +3220,7 @@ kaloz
 
 
 
-2870
+101
 
 ioctl.h
 file
@@ -3324,40 +3324,6 @@ kaloz
 
 1949
 
-uart_tio.h
-file
-
-
-
-
-2012-11-26T22:31:30.000000Z
-6578781928e6da90839394cff7b33a3e
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3052
-
 uaccess.h
 file
 
@@ -3391,6 +3357,40 @@ kaloz
 
 
 9186
+
+uart_tio.h
+file
+
+
+
+
+2012-11-26T22:31:30.000000Z
+6578781928e6da90839394cff7b33a3e
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3052
 
 bitsperlong.h
 file
@@ -3426,40 +3426,6 @@ kaloz
 
 37
 
-hardirq.h
-file
-
-
-
-
-2012-11-26T22:31:30.000000Z
-bfc535ae13336f0b269fe125f9879649
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1850
-
 local.h
 file
 
@@ -3493,6 +3459,40 @@ kaloz
 
 
 1143
+
+hardirq.h
+file
+
+
+
+
+2012-11-26T22:31:30.000000Z
+bfc535ae13336f0b269fe125f9879649
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1850
 
 percpu.h
 file
@@ -3562,14 +3562,14 @@ kaloz
 
 1208
 
-semaphore-helper.h
+param.h
 file
 
 
 
 
 2012-11-26T22:31:30.000000Z
-58fe641b60e4680a1af87c5aea05709a
+bb6e983e10f1ed661c67e585d53fcdd1
 2010-02-22T13:54:47.420209Z
 19815
 kaloz
@@ -3594,7 +3594,7 @@ kaloz
 
 
 
-2699
+1385
 
 emergency-restart.h
 file
@@ -3630,14 +3630,14 @@ kaloz
 
 1215
 
-param.h
+semaphore-helper.h
 file
 
 
 
 
 2012-11-26T22:31:30.000000Z
-bb6e983e10f1ed661c67e585d53fcdd1
+58fe641b60e4680a1af87c5aea05709a
 2010-02-22T13:54:47.420209Z
 19815
 kaloz
@@ -3662,7 +3662,7 @@ kaloz
 
 
 
-1385
+2699
 
 dma.h
 file
@@ -4072,14 +4072,14 @@ kaloz
 
 1209
 
-segment.h
+profilesample.h
 file
 
 
 
 
 2012-11-26T22:31:30.000000Z
-cbc14d24ba28d4d4f480ab4c22605ff6
+cd31ece500817327ca66f5fb56c04c28
 2010-02-22T13:54:47.420209Z
 19815
 kaloz
@@ -4104,7 +4104,7 @@ kaloz
 
 
 
-2010
+1729
 
 ubicom32suart.h
 file
@@ -4140,14 +4140,14 @@ kaloz
 
 1256
 
-profilesample.h
+segment.h
 file
 
 
 
 
 2012-11-26T22:31:30.000000Z
-cd31ece500817327ca66f5fb56c04c28
+cbc14d24ba28d4d4f480ab4c22605ff6
 2010-02-22T13:54:47.420209Z
 19815
 kaloz
@@ -4172,7 +4172,7 @@ kaloz
 
 
 
-1729
+2010
 
 types.h
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/package/madwifi/patches
 svn://svn.openwrt.org/openwrt
 
@@ -502,40 +502,6 @@ acoul
 
 2262
 
-448-beacon_handling_fixes.patch
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-9d2875a1bbca2f8397d75cd140cd8a3b
-2010-11-12T15:14:27.586862Z
-23971
-acoul
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-15081
-
 334-input.patch
 file
 
@@ -569,6 +535,40 @@ acoul
 
 
 396
+
+448-beacon_handling_fixes.patch
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+9d2875a1bbca2f8397d75cd140cd8a3b
+2010-11-12T15:14:27.586862Z
+23971
+acoul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+15081
 
 385-antenna_fix.patch
 file
@@ -604,40 +604,6 @@ acoul
 
 332
 
-407-new_athinfo.patch
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-e24cb7be2b17d9f0048f168670759251
-2008-11-02T13:03:03.904543Z
-13095
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-78553
-
 367-roaming.patch
 file
 
@@ -671,6 +637,40 @@ nbd
 
 
 2657
+
+407-new_athinfo.patch
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+e24cb7be2b17d9f0048f168670759251
+2008-11-02T13:03:03.904543Z
+13095
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+78553
 
 300-napi_polling.patch
 file
@@ -740,40 +740,6 @@ nbd
 
 313
 
-380-noderef_hack.patch
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-de7c2ac72cccfcc6bc5fc11b0678f45a
-2010-11-12T15:14:27.586862Z
-23971
-acoul
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-478
-
 421-channel_handling.patch
 file
 
@@ -807,6 +773,40 @@ acoul
 
 
 42801
+
+380-noderef_hack.patch
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+de7c2ac72cccfcc6bc5fc11b0678f45a
+2010-11-12T15:14:27.586862Z
+23971
+acoul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+478
 
 389-autochannel.patch
 file
@@ -876,17 +876,17 @@ acoul
 
 408
 
-366-bstuck_thresh.patch
+352-ani_fix.patch
 file
 
 
 
 
 2012-11-26T22:31:07.000000Z
-e41f465ec2916f9f1d88e6038f13b3da
-2009-03-25T01:26:20.826066Z
-15029
-nbd
+66e430cd632172876044f56110b3fac6
+2010-11-12T15:14:27.586862Z
+23971
+acoul
 
 
 
@@ -908,7 +908,7 @@ nbd
 
 
 
-2003
+7438
 
 358-ignore_broken_bssid.patch
 file
@@ -944,17 +944,17 @@ nbd
 
 573
 
-352-ani_fix.patch
+366-bstuck_thresh.patch
 file
 
 
 
 
 2012-11-26T22:31:07.000000Z
-66e430cd632172876044f56110b3fac6
-2010-11-12T15:14:27.586862Z
-23971
-acoul
+e41f465ec2916f9f1d88e6038f13b3da
+2009-03-25T01:26:20.826066Z
+15029
+nbd
 
 
 
@@ -976,7 +976,7 @@ acoul
 
 
 
-7438
+2003
 
 102-multicall_binary.patch
 file
@@ -2304,40 +2304,6 @@ nbd
 
 1232
 
-394-probereq.patch
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-b4dec95f040b2fc1e49e6c8d2625a232
-2010-11-12T15:14:27.586862Z
-23971
-acoul
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2268
-
 435-ibss_neighbor_fix.patch
 file
 
@@ -2371,6 +2337,40 @@ nbd
 
 
 514
+
+394-probereq.patch
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+b4dec95f040b2fc1e49e6c8d2625a232
+2010-11-12T15:14:27.586862Z
+23971
+acoul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2268
 
 461-rx_stats_count_fix.patch
 file
@@ -2542,40 +2542,6 @@ acoul
 
 3504
 
-340-maxrate.patch
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-cd6b3de9cf25693583c70a85c3de6f4d
-2010-11-12T15:14:27.586862Z
-23971
-acoul
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3498
-
 122-replayfail_workaround.patch
 file
 
@@ -2610,17 +2576,17 @@ nbd
 
 438
 
-444-beacon_update_war.patch
+340-maxrate.patch
 file
 
 
 
 
 2012-11-26T22:31:07.000000Z
-643a5a63c24659e1d992707e73db29c9
-2009-08-19T14:48:31.697008Z
-17312
-nbd
+cd6b3de9cf25693583c70a85c3de6f4d
+2010-11-12T15:14:27.586862Z
+23971
+acoul
 
 
 
@@ -2642,7 +2608,7 @@ nbd
 
 
 
-640
+3498
 
 474_fix_ssid_scan_length.patch
 file
@@ -2678,16 +2644,16 @@ acoul
 
 818
 
-310-noise_get.patch
+444-beacon_update_war.patch
 file
 
 
 
 
 2012-11-26T22:31:07.000000Z
-730ce8be623c130d1789e9870abc811c
-2008-11-02T13:04:36.229858Z
-13096
+643a5a63c24659e1d992707e73db29c9
+2009-08-19T14:48:31.697008Z
+17312
 nbd
 
 
@@ -2710,7 +2676,7 @@ nbd
 
 
 
-2019
+640
 
 413-rxorn.patch
 file
@@ -2745,6 +2711,40 @@ nbd
 
 
 1139
+
+310-noise_get.patch
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+730ce8be623c130d1789e9870abc811c
+2008-11-02T13:04:36.229858Z
+13096
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2019
 
 333-apscan_mode.patch
 file
@@ -2984,40 +2984,6 @@ acoul
 
 1785
 
-374-nbtt_fix.patch
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-799723d063d07eecc7eca163a067780b
-2010-11-12T15:14:27.586862Z
-23971
-acoul
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-825
-
 355-eap_auth_disassoc.patch
 file
 
@@ -3051,6 +3017,40 @@ nbd
 
 
 2441
+
+374-nbtt_fix.patch
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+799723d063d07eecc7eca163a067780b
+2010-11-12T15:14:27.586862Z
+23971
+acoul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+825
 
 406-monitor_r3711.patch
 file
@@ -3222,40 +3222,6 @@ nbd
 
 5339
 
-386-acl_crashfix.patch
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-293d7cfb99cd236b9c06a291e21a7f3d
-2010-11-12T15:14:27.586862Z
-23971
-acoul
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3361
-
 458-ibss_wpa_none.patch
 file
 
@@ -3289,6 +3255,40 @@ nbd
 
 
 550
+
+386-acl_crashfix.patch
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+293d7cfb99cd236b9c06a291e21a7f3d
+2010-11-12T15:14:27.586862Z
+23971
+acoul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3361
 
 395-ath_ff_unmap.patch
 file
@@ -3460,40 +3460,6 @@ acoul
 
 805
 
-104-autocreate_none.patch
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-af3e6657d61dfe8dec05cca189ac30e1
-2008-11-02T13:04:36.229858Z
-13096
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-261
-
 439-wlanconfig_stack_usage.patch
 file
 
@@ -3527,6 +3493,40 @@ nbd
 
 
 469
+
+104-autocreate_none.patch
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+af3e6657d61dfe8dec05cca189ac30e1
+2008-11-02T13:04:36.229858Z
+13096
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+261
 
 347-tuning.patch
 file
@@ -3732,48 +3732,14 @@ nbd
 
 1190
 
-382-relax_bintval.patch
+341-minrate.patch
 file
 
 
 
 
 2012-11-26T22:31:07.000000Z
-b205f46f3a53d8765690f6991936a634
-2008-10-07T01:41:03.669458Z
-12886
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-625
-
-425-rc_rexmit.patch
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-a5dc358637193a3d8da60079d9f703c8
+13019991e5938e2b8c406d206055129d
 2010-11-12T15:14:27.586862Z
 23971
 acoul
@@ -3798,7 +3764,7 @@ acoul
 
 
 
-16903
+4340
 
 403-changeset_r3605.patch
 file
@@ -3834,14 +3800,14 @@ nbd
 
 2449
 
-341-minrate.patch
+425-rc_rexmit.patch
 file
 
 
 
 
 2012-11-26T22:31:07.000000Z
-13019991e5938e2b8c406d206055129d
+a5dc358637193a3d8da60079d9f703c8
 2010-11-12T15:14:27.586862Z
 23971
 acoul
@@ -3866,7 +3832,41 @@ acoul
 
 
 
-4340
+16903
+
+382-relax_bintval.patch
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+b205f46f3a53d8765690f6991936a634
+2008-10-07T01:41:03.669458Z
+12886
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+625
 
 354-lantiq_eeprom.patch
 file
@@ -3936,40 +3936,6 @@ nbd
 
 4746
 
-477-3.2_fixes.patch
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-94adf7bd30b6dff9e52299ab5ba2f7cc
-2012-03-29T12:52:16.347586Z
-31138
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1489
-
 427-ignore_eeprom_ff.patch
 file
 
@@ -4003,6 +3969,40 @@ nbd
 
 
 366
+
+477-3.2_fixes.patch
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+94adf7bd30b6dff9e52299ab5ba2f7cc
+2012-03-29T12:52:16.347586Z
+31138
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1489
 
 106-get_arch.patch
 file
@@ -4038,40 +4038,6 @@ nbd
 
 436
 
-332-reset_beacons.patch
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-f046ca8362905719cb620ed5359724a5
-2009-03-25T01:26:20.826066Z
-15029
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-390
-
 445-fix_ps_sta_count.patch
 file
 
@@ -4105,6 +4071,40 @@ nbd
 
 
 621
+
+332-reset_beacons.patch
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+f046ca8362905719cb620ed5359724a5
+2009-03-25T01:26:20.826066Z
+15029
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+390
 
 378-adhoc_crash_fix.patch
 file
@@ -4208,40 +4208,6 @@ acoul
 
 3582
 
-379-invalid_rate_fix.patch
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-55d7ef9f740dc22b977538c6a1bb038b
-2010-11-12T15:14:27.586862Z
-23971
-acoul
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-14367
-
 478-remove_vlan_code.patch
 file
 
@@ -4275,6 +4241,40 @@ nbd
 
 
 715
+
+379-invalid_rate_fix.patch
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+55d7ef9f740dc22b977538c6a1bb038b
+2010-11-12T15:14:27.586862Z
+23971
+acoul
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14367
 
 346-protmode_trig.patch
 file

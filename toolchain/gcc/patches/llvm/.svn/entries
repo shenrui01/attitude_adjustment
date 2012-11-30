@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/toolchain/gcc/patches/llvm
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ nbd
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-205-uclibc-locale-update.patch
-file
-
-
-
-
-2012-11-26T22:31:28.000000Z
-502da0388cf79c792e72fc8548e8cd8f
-2009-10-10T19:25:48.592604Z
-18019
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10173
 
 100-uclibc-conf.patch
 file
@@ -93,6 +59,40 @@ nbd
 
 
 4318
+
+205-uclibc-locale-update.patch
+file
+
+
+
+
+2012-11-26T22:31:28.000000Z
+502da0388cf79c792e72fc8548e8cd8f
+2009-10-10T19:25:48.592604Z
+18019
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+10173
 
 300-libstdc++-pic.patch
 file
@@ -332,40 +332,6 @@ nbd
 
 592
 
-961-llvm_mips_compile_fix.patch
-file
-
-
-
-
-2012-11-26T22:31:28.000000Z
-01b17cb66d1ef1314eb374a93c3904df
-2009-10-10T19:25:48.592604Z
-18019
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-522
-
 200-uclibc-locale.patch
 file
 
@@ -399,6 +365,40 @@ nbd
 
 
 91215
+
+961-llvm_mips_compile_fix.patch
+file
+
+
+
+
+2012-11-26T22:31:28.000000Z
+01b17cb66d1ef1314eb374a93c3904df
+2009-10-10T19:25:48.592604Z
+18019
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+522
 
 303-c99-complex-ugly-hack.patch
 file

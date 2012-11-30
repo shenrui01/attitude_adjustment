@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/package/hostapd/patches
 svn://svn.openwrt.org/openwrt
 
@@ -808,40 +808,6 @@ nbd
 
 1841
 
-604-wpa_s-support-htmode-param.patch
-file
-
-
-
-
-2012-11-26T22:31:21.000000Z
-049a0cc0188cdf71be4e06056fc90347
-2012-09-13T12:38:51.674444Z
-33392
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4009
-
 610-max_num_sta_probe.patch
 file
 
@@ -876,14 +842,14 @@ nbd
 
 438
 
-601-wpa_supplicant-add-new-config-params-to-be-used-with.patch
+604-wpa_s-support-htmode-param.patch
 file
 
 
 
 
 2012-11-26T22:31:21.000000Z
-ba8e3023d64d502fd5793cf155afdeb6
+049a0cc0188cdf71be4e06056fc90347
 2012-09-13T12:38:51.674444Z
 33392
 nbd
@@ -908,16 +874,16 @@ nbd
 
 
 
-5394
+4009
 
-520-fix_wps_pin_crash.patch
+310-multicall_bridge_fix.patch
 file
 
 
 
 
 2012-11-26T22:31:21.000000Z
-18e4faf1906bcbd141b5fe17e243b354
+9dce01b9c64d5edde4397af286370e07
 2012-09-13T12:38:51.674444Z
 33392
 nbd
@@ -942,7 +908,7 @@ nbd
 
 
 
-245
+1396
 
 300-nl80211_multicall_fixes.patch
 file
@@ -978,14 +944,14 @@ nbd
 
 1927
 
-310-multicall_bridge_fix.patch
+520-fix_wps_pin_crash.patch
 file
 
 
 
 
 2012-11-26T22:31:21.000000Z
-9dce01b9c64d5edde4397af286370e07
+18e4faf1906bcbd141b5fe17e243b354
 2012-09-13T12:38:51.674444Z
 33392
 nbd
@@ -1010,7 +976,41 @@ nbd
 
 
 
-1396
+245
+
+601-wpa_supplicant-add-new-config-params-to-be-used-with.patch
+file
+
+
+
+
+2012-11-26T22:31:21.000000Z
+ba8e3023d64d502fd5793cf155afdeb6
+2012-09-13T12:38:51.674444Z
+33392
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5394
 
 470-wpa_ie_cap_workaround.patch
 file

@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/ubicom32/files/arch/ubicom32/kernel
 svn://svn.openwrt.org/openwrt
 
@@ -536,40 +536,6 @@ kaloz
 
 13866
 
-Makefile
-file
-
-
-
-
-2012-11-26T22:31:29.000000Z
-e53a8cce010666ce525ce9569455defc
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1699
-
 unaligned_trap.c
 file
 
@@ -603,6 +569,40 @@ kaloz
 
 
 16464
+
+Makefile
+file
+
+
+
+
+2012-11-26T22:31:29.000000Z
+e53a8cce010666ce525ce9569455defc
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1699
 
 ubicom32_syscall.S
 file
@@ -944,40 +944,6 @@ kaloz
 
 7027
 
-sys_ubicom32.c
-file
-
-
-
-
-2012-11-26T22:31:29.000000Z
-0dd6b4c8d79b27fc4706220549723827
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5668
-
 head.S
 file
 
@@ -1011,6 +977,40 @@ kaloz
 
 
 8312
+
+sys_ubicom32.c
+file
+
+
+
+
+2012-11-26T22:31:29.000000Z
+0dd6b4c8d79b27fc4706220549723827
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5668
 
 stacktrace.c
 file

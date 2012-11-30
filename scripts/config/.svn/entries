@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/scripts/config
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ has-props
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-zconf.tab.c_shipped
-file
-
-
-
-
-2012-11-26T22:32:08.000000Z
-eae343f577512e1cafb70fb9e16b8d99
-2011-10-28T14:09:12.991639Z
-28658
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-60367
 
 zconf.gperf
 file
@@ -93,6 +59,40 @@ has-props
 
 
 1283
+
+zconf.tab.c_shipped
+file
+
+
+
+
+2012-11-26T22:32:08.000000Z
+eae343f577512e1cafb70fb9e16b8d99
+2011-10-28T14:09:12.991639Z
+28658
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+60367
 
 lkc_proto.h
 file
@@ -196,40 +196,6 @@ has-props
 
 10332
 
-zconf.y
-file
-
-
-
-
-2012-11-26T22:32:08.000000Z
-11e8b0ad3055cac19745906a22931eb3
-2007-03-23T14:03:35.824535Z
-6647
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-14528
-
 symbol.c
 file
 
@@ -263,6 +229,40 @@ has-props
 
 
 18188
+
+zconf.y
+file
+
+
+
+
+2012-11-26T22:32:08.000000Z
+11e8b0ad3055cac19745906a22931eb3
+2007-03-23T14:03:35.824535Z
+6647
+nbd
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14528
 
 lex.backup
 file
@@ -332,40 +332,6 @@ has-props
 
 115
 
-zconf.hash.c_shipped
-file
-
-
-
-
-2012-11-26T22:32:08.000000Z
-387a85212e324e7b0cd63dd9a3377cf1
-2007-03-23T14:03:35.824535Z
-6647
-nbd
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10099
-
 util.c
 file
 
@@ -400,16 +366,16 @@ has-props
 
 1617
 
-expr.c
+zconf.hash.c_shipped
 file
 
 
 
 
 2012-11-26T22:32:08.000000Z
-d71ba1185c2d0c7c846fce4b5d519610
-2011-10-28T14:09:12.991639Z
-28658
+387a85212e324e7b0cd63dd9a3377cf1
+2007-03-23T14:03:35.824535Z
+6647
 nbd
 has-props
 
@@ -432,7 +398,7 @@ has-props
 
 
 
-26452
+10099
 
 lkc.h
 file
@@ -468,17 +434,17 @@ has-props
 
 3597
 
-kconfig_load.c
+expr.c
 file
 
 
 
 
 2012-11-26T22:32:08.000000Z
-9376b55503a3d5f212697b620df6c178
-2007-03-04T04:57:01.931545Z
-6502
-pavlov
+d71ba1185c2d0c7c846fce4b5d519610
+2011-10-28T14:09:12.991639Z
+28658
+nbd
 has-props
 
 
@@ -500,7 +466,7 @@ has-props
 
 
 
-644
+26452
 
 confdata.c
 file
@@ -535,6 +501,40 @@ has-props
 
 
 11387
+
+kconfig_load.c
+file
+
+
+
+
+2012-11-26T22:32:08.000000Z
+9376b55503a3d5f212697b620df6c178
+2007-03-04T04:57:01.931545Z
+6502
+pavlov
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+644
 
 lxdialog
 dir

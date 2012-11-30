@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/package/uboot-lantiq/files/board/infineon/easy50712
 svn://svn.openwrt.org/openwrt
 
@@ -25,40 +25,6 @@ blogic
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-danube.c
-file
-
-
-
-
-2012-11-26T22:31:17.000000Z
-f5a584b76ed8566346cfe6dbabf32aaf
-2011-07-17T19:27:24.832026Z
-27663
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-10776
 
 ddr_settings.h
 file
@@ -94,17 +60,17 @@ nbd
 
 1429
 
-ddr_settings_e166.h
+danube.c
 file
 
 
 
 
 2012-11-26T22:31:17.000000Z
-dd718f34fd713a5dc94e9bb23ca38962
-2010-03-28T22:40:32.462162Z
-20561
-nbd
+f5a584b76ed8566346cfe6dbabf32aaf
+2011-07-17T19:27:24.832026Z
+27663
+blogic
 
 
 
@@ -126,7 +92,7 @@ nbd
 
 
 
-1520
+10776
 
 ddr_settings_psc_166.h
 file
@@ -161,6 +127,40 @@ nbd
 
 
 1547
+
+ddr_settings_e166.h
+file
+
+
+
+
+2012-11-26T22:31:17.000000Z
+dd718f34fd713a5dc94e9bb23ca38962
+2010-03-28T22:40:32.462162Z
+20561
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1520
 
 ddr_settings_r111.h
 file

@@ -1,15 +1,15 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/include
 svn://svn.openwrt.org/openwrt
 
 
 
-2012-11-13T13:14:59.454270Z
-34185
-blogic
+2012-11-29T17:49:50.254617Z
+34412
+juhosg
 
 
 
@@ -236,33 +236,12 @@ file
 
 
 
-2012-11-26T22:31:29.000000Z
-f5d778d5a72d92b6fd64fe48bfc63ef2
-2012-07-01T11:48:54.934358Z
-32572
-jow
+
+33465b31b85164fbf23076a3aaa60c37
+2012-11-29T17:49:50.254617Z
+34412
+juhosg
 has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5623
 
 version.mk
 file
@@ -468,6 +447,40 @@ has-props
 
 12653
 
+quilt.mk
+file
+
+
+
+
+2012-11-26T22:31:29.000000Z
+ced69cfbcfc0c94d69e563746b1c9eca
+2012-02-13T15:31:28.541370Z
+30500
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5274
+
 prereq.mk
 file
 
@@ -504,40 +517,6 @@ has-props
 
 site
 dir
-
-quilt.mk
-file
-
-
-
-
-2012-11-26T22:31:29.000000Z
-ced69cfbcfc0c94d69e563746b1c9eca
-2012-02-13T15:31:28.541370Z
-30500
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5274
 
 package-defaults.mk
 file
@@ -675,40 +654,6 @@ has-props
 
 5887
 
-kernel-build.mk
-file
-
-
-
-
-2012-11-26T22:31:29.000000Z
-a4cd60dc290e859d7c0b1e7a81f5ea3c
-2011-10-03T11:33:13.661270Z
-28361
-jow
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3460
-
 toolchain-build.mk
 file
 
@@ -742,6 +687,40 @@ nbd
 
 
 646
+
+kernel-build.mk
+file
+
+
+
+
+2012-11-26T22:31:29.000000Z
+a4cd60dc290e859d7c0b1e7a81f5ea3c
+2011-10-03T11:33:13.661270Z
+28361
+jow
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3460
 
 unpack.mk
 file
@@ -879,40 +858,6 @@ has-props
 
 2646
 
-scons.mk
-file
-
-
-
-
-2012-11-26T22:31:29.000000Z
-3aa1c3b09cdf15fca3e7044e8b02031f
-2012-07-28T21:06:59.797492Z
-32902
-blogic
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-492
-
 kernel-defaults.mk
 file
 
@@ -946,6 +891,40 @@ nbd
 
 
 7122
+
+scons.mk
+file
+
+
+
+
+2012-11-26T22:31:29.000000Z
+3aa1c3b09cdf15fca3e7044e8b02031f
+2012-07-28T21:06:59.797492Z
+32902
+blogic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+492
 
 target.mk
 file

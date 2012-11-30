@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/ubicom32/files/arch/ubicom32/mach-common
 svn://svn.openwrt.org/openwrt
 
@@ -60,40 +60,6 @@ kaloz
 
 315
 
-profile.c
-file
-
-
-
-
-2012-11-26T22:31:29.000000Z
-bbc3ce46a03cdf850214848ad330d64c
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-14585
-
 ubicom32input_i2c.c
 file
 
@@ -127,6 +93,40 @@ kaloz
 
 
 7322
+
+profile.c
+file
+
+
+
+
+2012-11-26T22:31:29.000000Z
+bbc3ce46a03cdf850214848ad330d64c
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+14585
 
 audio.c
 file
@@ -162,40 +162,6 @@ kaloz
 
 3933
 
-ubicom32input.c
-file
-
-
-
-
-2012-11-26T22:31:29.000000Z
-4561a2465b83335b5fe27228d56a12f9
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5864
-
 plio.c
 file
 
@@ -229,6 +195,40 @@ kaloz
 
 
 2247
+
+ubicom32input.c
+file
+
+
+
+
+2012-11-26T22:31:29.000000Z
+4561a2465b83335b5fe27228d56a12f9
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+5864
 
 usb_tio.c
 file
@@ -400,40 +400,6 @@ kaloz
 
 12712
 
-switch-bcm539x-reg.h
-file
-
-
-
-
-2012-11-26T22:31:29.000000Z
-6c283cbe7dbe08ca8a6075031ae51563
-2010-02-22T13:54:47.420209Z
-19815
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-9182
-
 usb_tio.h
 file
 
@@ -467,6 +433,40 @@ kaloz
 
 
 2925
+
+switch-bcm539x-reg.h
+file
+
+
+
+
+2012-11-26T22:31:29.000000Z
+6c283cbe7dbe08ca8a6075031ae51563
+2010-02-22T13:54:47.420209Z
+19815
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9182
 
 ring_tio.c
 file

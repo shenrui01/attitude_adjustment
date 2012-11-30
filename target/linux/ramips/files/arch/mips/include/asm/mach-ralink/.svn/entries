@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/ramips/files/arch/mips/include/asm/mach-ralink
 svn://svn.openwrt.org/openwrt
 
@@ -25,9 +25,6 @@ juhosg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-rt288x
-dir
 
 war.h
 file
@@ -62,6 +59,9 @@ juhosg
 
 
 794
+
+rt288x
+dir
 
 rt3883_regs.h
 file
@@ -131,16 +131,16 @@ juhosg
 
 669
 
-rt288x_regs.h
+dev-gpio-leds.h
 file
 
 
 
 
 2012-11-26T22:31:39.000000Z
-4966ccb3ebc705283efe87e2002e8a98
-2011-12-28T08:43:36.937779Z
-29616
+c07d17d89f5e600b0c872596fda12c14
+2011-01-26T20:48:33.653681Z
+25123
 juhosg
 
 
@@ -163,41 +163,7 @@ juhosg
 
 
 
-3960
-
-ramips_nand_platform.h
-file
-
-
-
-
-2012-11-26T22:31:39.000000Z
-4448ab296d2744178d0c69ab8efc8fd4
-2012-02-13T15:17:59.656417Z
-30495
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-621
+711
 
 ramips_eth_platform.h
 file
@@ -233,16 +199,50 @@ juhosg
 
 1129
 
-dev-gpio-leds.h
+ramips_nand_platform.h
 file
 
 
 
 
 2012-11-26T22:31:39.000000Z
-c07d17d89f5e600b0c872596fda12c14
-2011-01-26T20:48:33.653681Z
-25123
+4448ab296d2744178d0c69ab8efc8fd4
+2012-02-13T15:17:59.656417Z
+30495
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+621
+
+rt288x_regs.h
+file
+
+
+
+
+2012-11-26T22:31:39.000000Z
+4966ccb3ebc705283efe87e2002e8a98
+2011-12-28T08:43:36.937779Z
+29616
 juhosg
 
 
@@ -265,7 +265,7 @@ juhosg
 
 
 
-711
+3960
 
 machine.h
 file

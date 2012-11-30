@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/ar71xx/files/arch/mips/ath79
 svn://svn.openwrt.org/openwrt
 
@@ -60,40 +60,6 @@ has-props
 
 3799
 
-mach-whr-hp-g300n.c
-file
-
-
-
-
-2012-11-26T22:31:38.000000Z
-c5f241a06e94bd410883075a14862750
-2012-03-27T19:38:01.186235Z
-31108
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4125
-
 mach-tew-712br.c
 file
 
@@ -127,6 +93,40 @@ has-props
 
 
 4438
+
+mach-whr-hp-g300n.c
+file
+
+
+
+
+2012-11-26T22:31:38.000000Z
+c5f241a06e94bd410883075a14862750
+2012-03-27T19:38:01.186235Z
+31108
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4125
 
 dev-eth.h
 file
@@ -196,40 +196,6 @@ has-props
 
 1523
 
-mach-all0315n.c
-file
-
-
-
-
-2012-11-26T22:31:38.000000Z
-f36ae455e66875b58fbe80a9c6cb79fe
-2012-08-29T10:37:54.476777Z
-33309
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2180
-
 mach-rb750.c
 file
 
@@ -263,6 +229,40 @@ has-props
 
 
 8712
+
+mach-all0315n.c
+file
+
+
+
+
+2012-11-26T22:31:38.000000Z
+f36ae455e66875b58fbe80a9c6cb79fe
+2012-08-29T10:37:54.476777Z
+33309
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2180
 
 mach-tl-wa901nd.c
 file
@@ -1046,40 +1046,6 @@ has-props
 
 3478
 
-mach-tl-wa901nd-v2.c
-file
-
-
-
-
-2012-11-26T22:31:38.000000Z
-d3b05e908496f32f03a0df265be7a5be
-2012-02-10T08:19:31.122468Z
-30405
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2847
-
 mach-ap113.c
 file
 
@@ -1113,6 +1079,40 @@ has-props
 
 
 2019
+
+mach-tl-wa901nd-v2.c
+file
+
+
+
+
+2012-11-26T22:31:38.000000Z
+d3b05e908496f32f03a0df265be7a5be
+2012-02-10T08:19:31.122468Z
+30405
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2847
 
 mach-rw2458n.c
 file
@@ -1352,40 +1352,6 @@ has-props
 
 6379
 
-mach-pb92.c
-file
-
-
-
-
-2012-11-26T22:31:38.000000Z
-00b6cb18d7b5347a3d491b12090eab87
-2012-03-27T19:38:05.575190Z
-31111
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1766
-
 mach-mzk-w04nu.c
 file
 
@@ -1420,16 +1386,16 @@ has-props
 
 3257
 
-mach-om2p.c
+mach-pb92.c
 file
 
 
 
 
 2012-11-26T22:31:38.000000Z
-95257aea89e240a4685b61118f858145
-2012-10-18T07:13:10.836678Z
-33836
+00b6cb18d7b5347a3d491b12090eab87
+2012-03-27T19:38:05.575190Z
+31111
 juhosg
 has-props
 
@@ -1452,41 +1418,7 @@ has-props
 
 
 
-6299
-
-nvram.c
-file
-
-
-
-
-2012-11-26T22:31:38.000000Z
-2741e53cbdd37e46fa6795d31dbb1e01
-2012-02-10T08:19:31.122468Z
-30405
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1507
+1766
 
 dev-dsa.c
 file
@@ -1522,16 +1454,16 @@ has-props
 
 902
 
-mach-dir-600-a1.c
+nvram.c
 file
 
 
 
 
 2012-11-26T22:31:38.000000Z
-37bfaf54fc1dcb476a75bd04f750b1aa
-2012-03-27T19:38:01.186235Z
-31108
+2741e53cbdd37e46fa6795d31dbb1e01
+2012-02-10T08:19:31.122468Z
+30405
 juhosg
 has-props
 
@@ -1554,7 +1486,41 @@ has-props
 
 
 
-4075
+1507
+
+mach-om2p.c
+file
+
+
+
+
+2012-11-26T22:31:38.000000Z
+95257aea89e240a4685b61118f858145
+2012-10-18T07:13:10.836678Z
+33836
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6299
 
 mach-alfa-ap96.c
 file
@@ -1590,16 +1556,16 @@ has-props
 
 4185
 
-nvram.h
+mach-dir-600-a1.c
 file
 
 
 
 
 2012-11-26T22:31:38.000000Z
-c8c2e1e76ec3c2d48d093869a0a530bd
-2012-02-10T08:19:31.122468Z
-30405
+37bfaf54fc1dcb476a75bd04f750b1aa
+2012-03-27T19:38:01.186235Z
+31108
 juhosg
 has-props
 
@@ -1622,7 +1588,7 @@ has-props
 
 
 
-574
+4075
 
 dev-dsa.h
 file
@@ -1658,14 +1624,14 @@ has-props
 
 574
 
-mach-wzr-hp-g300nh.c
+nvram.h
 file
 
 
 
 
 2012-11-26T22:31:38.000000Z
-1768315172521714ceeb909fb3e85920
+c8c2e1e76ec3c2d48d093869a0a530bd
 2012-02-10T08:19:31.122468Z
 30405
 juhosg
@@ -1690,7 +1656,7 @@ has-props
 
 
 
-7904
+574
 
 mach-jwap003.c
 file
@@ -1725,6 +1691,40 @@ has-props
 
 
 2279
+
+mach-wzr-hp-g300nh.c
+file
+
+
+
+
+2012-11-26T22:31:38.000000Z
+1768315172521714ceeb909fb3e85920
+2012-02-10T08:19:31.122468Z
+30405
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7904
 
 mach-zcn-1523h.c
 file
@@ -1828,40 +1828,6 @@ has-props
 
 3613
 
-dev-m25p80.h
-file
-
-
-
-
-2012-11-26T22:31:38.000000Z
-b0e40a42db53b2e2f767579c75d72a3b
-2012-02-10T08:19:31.122468Z
-30405
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-529
-
 mach-wzr-hp-g300nh2.c
 file
 
@@ -1896,14 +1862,14 @@ has-props
 
 4434
 
-mach-pb42.c
+dev-m25p80.h
 file
 
 
 
 
 2012-11-26T22:31:38.000000Z
-5ea255a975dcacd428beeec7936a45d3
+b0e40a42db53b2e2f767579c75d72a3b
 2012-02-10T08:19:31.122468Z
 30405
 juhosg
@@ -1928,7 +1894,7 @@ has-props
 
 
 
-2148
+529
 
 mach-rb2011.c
 file
@@ -1964,6 +1930,40 @@ has-props
 
 6038
 
+mach-pb42.c
+file
+
+
+
+
+2012-11-26T22:31:38.000000Z
+5ea255a975dcacd428beeec7936a45d3
+2012-02-10T08:19:31.122468Z
+30405
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2148
+
 mach-tl-mr3x20.c
 file
 
@@ -1997,40 +1997,6 @@ has-props
 
 
 3528
-
-dev-nfc.c
-file
-
-
-
-
-2012-11-26T22:31:38.000000Z
-88a20c0ba0fe759853da0faa218c64da
-2012-09-13T07:26:25.058537Z
-33387
-juhosg
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2384
 
 pci-ath9k-fixup.c
 file
@@ -2066,16 +2032,16 @@ has-props
 
 2848
 
-mach-wlae-ag300n.c
+dev-nfc.c
 file
 
 
 
 
 2012-11-26T22:31:38.000000Z
-fddd39b8cfeec12983cbe2cefe09bbe2
-2012-08-01T12:24:52.727074Z
-32931
+88a20c0ba0fe759853da0faa218c64da
+2012-09-13T07:26:25.058537Z
+33387
 juhosg
 has-props
 
@@ -2098,7 +2064,41 @@ has-props
 
 
 
-2661
+2384
+
+mach-mzk-w300nh.c
+file
+
+
+
+
+2012-11-26T22:31:38.000000Z
+cf77263afa8cbbfa4cc2a03624c24964
+2012-02-10T08:19:31.122468Z
+30405
+juhosg
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3165
 
 mach-tl-wr1041n-v2.c
 file
@@ -2134,16 +2134,16 @@ has-props
 
 3635
 
-mach-mzk-w300nh.c
+mach-wlae-ag300n.c
 file
 
 
 
 
 2012-11-26T22:31:38.000000Z
-cf77263afa8cbbfa4cc2a03624c24964
-2012-02-10T08:19:31.122468Z
-30405
+fddd39b8cfeec12983cbe2cefe09bbe2
+2012-08-01T12:24:52.727074Z
+32931
 juhosg
 has-props
 
@@ -2166,7 +2166,7 @@ has-props
 
 
 
-3165
+2661
 
 mach-ap96.c
 file

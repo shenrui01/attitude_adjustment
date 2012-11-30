@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/package/kernel/modules
 svn://svn.openwrt.org/openwrt
 
@@ -94,40 +94,6 @@ has-props
 
 7172
 
-crypto.mk
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-2557ede52e818eabcc19266dd0eaf22d
-2012-07-25T15:50:38.810547Z
-32863
-florian
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12823
-
 001-depends.mk
 file
 
@@ -161,6 +127,40 @@ nbd
 
 
 733
+
+crypto.mk
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+2557ede52e818eabcc19266dd0eaf22d
+2012-07-25T15:50:38.810547Z
+32863
+florian
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12823
 
 other.mk
 file
@@ -264,40 +264,6 @@ blogic
 
 4351
 
-leds.mk
-file
-
-
-
-
-2012-11-26T22:31:07.000000Z
-ddc79e9476d68bc7ff6f8bc0af2d154f
-2012-07-25T15:50:02.108610Z
-32852
-florian
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4106
-
 w1.mk
 file
 
@@ -332,18 +298,17 @@ has-props
 
 3997
 
-hwmon.mk
+leds.mk
 file
 
 
 
 
 2012-11-26T22:31:07.000000Z
-aca0f7adf892dc54b063146a76bfa1b3
-2012-05-09T10:48:36.178287Z
-31657
-juhosg
-has-props
+ddc79e9476d68bc7ff6f8bc0af2d154f
+2012-07-25T15:50:02.108610Z
+32852
+florian
 
 
 
@@ -364,7 +329,8 @@ has-props
 
 
 
-4975
+
+4106
 
 sound.mk
 file
@@ -400,17 +366,17 @@ nbd
 
 5313
 
-usb.mk
+hwmon.mk
 file
 
 
 
 
 2012-11-26T22:31:07.000000Z
-f1559c34d3586b944d2fca087d19cff8
-2012-07-25T15:50:45.778859Z
-32865
-florian
+aca0f7adf892dc54b063146a76bfa1b3
+2012-05-09T10:48:36.178287Z
+31657
+juhosg
 has-props
 
 
@@ -432,7 +398,7 @@ has-props
 
 
 
-23924
+4975
 
 netdevices.mk
 file
@@ -467,6 +433,40 @@ florian
 
 
 18268
+
+usb.mk
+file
+
+
+
+
+2012-11-26T22:31:07.000000Z
+f1559c34d3586b944d2fca087d19cff8
+2012-07-25T15:50:45.778859Z
+32865
+florian
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+23924
 
 block.mk
 file

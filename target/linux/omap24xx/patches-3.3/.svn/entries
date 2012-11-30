@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/omap24xx/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -26,14 +26,14 @@ florian
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
 
-910-omap-fix-section-mismatch-warnings.patch
+400-bluetooth-hci_h4p.patch
 file
 
 
 
 
 2012-11-26T22:31:56.000000Z
-189a2d11cd47cac9e0b336b543ee9c0d
+f6e930cca6bee234865f007c617d77b7
 2012-05-18T20:22:32.268867Z
 31810
 juhosg
@@ -58,7 +58,7 @@ juhosg
 
 
 
-4249
+50558
 
 420-hci-h4p-interrupt-workaround.patch
 file
@@ -94,14 +94,14 @@ juhosg
 
 958
 
-400-bluetooth-hci_h4p.patch
+910-omap-fix-section-mismatch-warnings.patch
 file
 
 
 
 
 2012-11-26T22:31:56.000000Z
-f6e930cca6bee234865f007c617d77b7
+189a2d11cd47cac9e0b336b543ee9c0d
 2012-05-18T20:22:32.268867Z
 31810
 juhosg
@@ -126,7 +126,7 @@ juhosg
 
 
 
-50558
+4249
 
 310-n810-lcd.patch
 file
@@ -196,40 +196,6 @@ juhosg
 
 4476
 
-710-evdev-events-without-grab.patch
-file
-
-
-
-
-2012-11-26T22:31:56.000000Z
-c0e0ee2aac3e00754b95550eead4758c
-2012-05-18T20:22:32.268867Z
-31810
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-923
-
 251-cbus-tahvo-lock-fix.patch
 file
 
@@ -263,6 +229,40 @@ juhosg
 
 
 313
+
+710-evdev-events-without-grab.patch
+file
+
+
+
+
+2012-11-26T22:31:56.000000Z
+c0e0ee2aac3e00754b95550eead4758c
+2012-05-18T20:22:32.268867Z
+31810
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+923
 
 810-mmc-fixes.patch
 file
@@ -400,40 +400,6 @@ juhosg
 
 704
 
-254-cbus-retu-tahvo-irq-mask-init-fix.patch
-file
-
-
-
-
-2012-11-26T22:31:56.000000Z
-03ddc8ca70cb2ff72d3548fedac64279
-2012-05-18T20:22:32.268867Z
-31810
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-824
-
 330-n800-tsc2301-platform.patch
 file
 
@@ -468,14 +434,14 @@ juhosg
 
 6020
 
-850-musb-tusb-modular-fixes.patch
+254-cbus-retu-tahvo-irq-mask-init-fix.patch
 file
 
 
 
 
 2012-11-26T22:31:56.000000Z
-4913c2727570270e446e7ad92362ac91
+03ddc8ca70cb2ff72d3548fedac64279
 2012-05-18T20:22:32.268867Z
 31810
 juhosg
@@ -500,7 +466,7 @@ juhosg
 
 
 
-4003
+824
 
 309-omapfb-circular-mutex-workaround.patch
 file
@@ -535,6 +501,40 @@ juhosg
 
 
 1144
+
+850-musb-tusb-modular-fixes.patch
+file
+
+
+
+
+2012-11-26T22:31:56.000000Z
+4913c2727570270e446e7ad92362ac91
+2012-05-18T20:22:32.268867Z
+31810
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4003
 
 410-hci-h4p-fixes.patch
 file

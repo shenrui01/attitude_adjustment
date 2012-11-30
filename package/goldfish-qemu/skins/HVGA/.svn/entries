@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/package/goldfish-qemu/skins/HVGA
 svn://svn.openwrt.org/openwrt
 
@@ -60,40 +60,6 @@ nbd
 
 3782
 
-volume_down.png
-file
-
-
-
-
-2012-11-26T22:31:12.000000Z
-0d7a5d50c0f24ea7f127283ccb16f41b
-2009-06-14T21:17:50.232051Z
-16460
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3586
-
 arrow_up.png
 file
 
@@ -127,6 +93,40 @@ nbd
 
 
 3493
+
+volume_down.png
+file
+
+
+
+
+2012-11-26T22:31:12.000000Z
+0d7a5d50c0f24ea7f127283ccb16f41b
+2009-06-14T21:17:50.232051Z
+16460
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3586
 
 device.png
 file
@@ -162,40 +162,6 @@ nbd
 
 45511
 
-back.png
-file
-
-
-
-
-2012-11-26T22:31:12.000000Z
-a9482b96815fef72f909a0787e0c26eb
-2009-06-14T21:17:50.232051Z
-16460
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3564
-
 keyboard.png
 file
 
@@ -230,14 +196,14 @@ nbd
 
 11032
 
-menu.png
+back.png
 file
 
 
 
 
 2012-11-26T22:31:12.000000Z
-b38067f79bd97dd2206d44f9883e63db
+a9482b96815fef72f909a0787e0c26eb
 2009-06-14T21:17:50.232051Z
 16460
 nbd
@@ -262,7 +228,7 @@ nbd
 
 
 
-3079
+3564
 
 arrow_left.png
 file
@@ -297,6 +263,40 @@ nbd
 
 
 4122
+
+menu.png
+file
+
+
+
+
+2012-11-26T22:31:12.000000Z
+b38067f79bd97dd2206d44f9883e63db
+2009-06-14T21:17:50.232051Z
+16460
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3079
 
 end.png
 file

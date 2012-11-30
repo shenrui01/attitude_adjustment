@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/package/ep80579-drivers/patches
 svn://svn.openwrt.org/openwrt
 
@@ -25,74 +25,6 @@ juhosg
 
 
 3c298f89-4303-0410-b956-a3cf2f4a3e73
-
-601-2.6.32_includes.patch
-file
-
-
-
-
-2012-11-26T22:31:00.000000Z
-76d712fc35a51a030564b58385e25b99
-2012-05-18T20:10:28.325441Z
-31801
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-781
-
-106-iegbe_new_irqf_constant.patch
-file
-
-
-
-
-2012-11-26T22:31:00.000000Z
-a0aed6adb700a205511dd3ebdd70a956
-2010-04-01T12:05:27.399177Z
-20648
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-521
 
 210-can_include_linux_fs_h.patch
 file
@@ -128,16 +60,50 @@ kaloz
 
 263
 
-713-3.3-gpio-fixes.patch
+106-iegbe_new_irqf_constant.patch
 file
 
 
 
 
 2012-11-26T22:31:00.000000Z
-ce03bbbaef6282522db09e52fd0b87ea
-2012-05-18T20:10:33.424532Z
-31802
+a0aed6adb700a205511dd3ebdd70a956
+2010-04-01T12:05:27.399177Z
+20648
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+521
+
+601-2.6.32_includes.patch
+file
+
+
+
+
+2012-11-26T22:31:00.000000Z
+76d712fc35a51a030564b58385e25b99
+2012-05-18T20:10:28.325441Z
+31801
 juhosg
 
 
@@ -160,7 +126,7 @@ juhosg
 
 
 
-1182
+781
 
 150-ocracoke_island.patch
 file
@@ -196,6 +162,40 @@ juhosg
 
 21129
 
+713-3.3-gpio-fixes.patch
+file
+
+
+
+
+2012-11-26T22:31:00.000000Z
+ce03bbbaef6282522db09e52fd0b87ea
+2012-05-18T20:10:33.424532Z
+31802
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1182
+
 714-3.3-wdt-fixes.patch
 file
 
@@ -230,48 +230,14 @@ juhosg
 
 1397
 
-712-3.3-can-fixes.patch
+400-edma_fix_irq_request_warning.patch
 file
 
 
 
 
 2012-11-26T22:31:00.000000Z
-bab2aebaae8d0dd816c3d19a9158a6e9
-2012-05-18T20:10:33.424532Z
-31802
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1343
-
-600-2.6.27_includes.patch
-file
-
-
-
-
-2012-11-26T22:31:00.000000Z
-ae63a5800f0d6497320b0c3b0d7ef0fc
+9a370d81b5633ccc5834a8c0b25efe5e
 2010-04-01T12:05:27.399177Z
 20648
 kaloz
@@ -296,7 +262,7 @@ kaloz
 
 
 
-688
+874
 
 500-1588_fix_irq_request_warning.patch
 file
@@ -332,14 +298,14 @@ kaloz
 
 975
 
-400-edma_fix_irq_request_warning.patch
+600-2.6.27_includes.patch
 file
 
 
 
 
 2012-11-26T22:31:00.000000Z
-9a370d81b5633ccc5834a8c0b25efe5e
+ae63a5800f0d6497320b0c3b0d7ef0fc
 2010-04-01T12:05:27.399177Z
 20648
 kaloz
@@ -364,7 +330,41 @@ kaloz
 
 
 
-874
+688
+
+712-3.3-can-fixes.patch
+file
+
+
+
+
+2012-11-26T22:31:00.000000Z
+bab2aebaae8d0dd816c3d19a9158a6e9
+2012-05-18T20:10:33.424532Z
+31802
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1343
 
 102-iegbe_nuke_polling_netdev.patch
 file
@@ -434,40 +434,6 @@ kaloz
 
 1621
 
-200-can_fix_ioctl_numbers.patch
-file
-
-
-
-
-2012-11-26T22:31:00.000000Z
-f41e347262d1334d4c4a2daccc87de55
-2010-04-01T12:05:27.399177Z
-20648
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-370
-
 220-can_fix_irq_request.patch
 file
 
@@ -501,6 +467,40 @@ kaloz
 
 
 788
+
+200-can_fix_ioctl_numbers.patch
+file
+
+
+
+
+2012-11-26T22:31:00.000000Z
+f41e347262d1334d4c4a2daccc87de55
+2010-04-01T12:05:27.399177Z
+20648
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+370
 
 715-3.3-1588-fixes.patch
 file

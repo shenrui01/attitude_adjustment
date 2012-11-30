@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/xburst/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -60,40 +60,6 @@ juhosg
 
 8855
 
-0009-dev-mem-Add-kernel-config-option-to-omit-this-device.patch
-file
-
-
-
-
-2012-11-26T22:31:33.000000Z
-2e9b0d3aff9b9e6622ac5642c7b2b964
-2012-05-27T15:01:32.324843Z
-31902
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-3766
-
 0019-Framebuffer-notifier-Call-notifier-callbacks-prior-t.patch
 file
 
@@ -127,6 +93,40 @@ juhosg
 
 
 1026
+
+0009-dev-mem-Add-kernel-config-option-to-omit-this-device.patch
+file
+
+
+
+
+2012-11-26T22:31:33.000000Z
+2e9b0d3aff9b9e6622ac5642c7b2b964
+2012-05-27T15:01:32.324843Z
+31902
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3766
 
 0018-ASoC-jz4740-Convert-qi_lb60-to-use-snd_soc_register_.patch
 file
@@ -196,40 +196,6 @@ juhosg
 
 735
 
-0001-ubi-Read-only-the-vid-header-instead-of-the-whole-pa.patch
-file
-
-
-
-
-2012-11-26T22:31:33.000000Z
-0d09022a96f17284ae9900cdfdda6678
-2012-05-27T15:01:32.324843Z
-31902
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-716
-
 0005-NAND-Optimize-reading-the-eec-data-for-the-JZ4740.patch
 file
 
@@ -263,6 +229,40 @@ juhosg
 
 
 1976
+
+0001-ubi-Read-only-the-vid-header-instead-of-the-whole-pa.patch
+file
+
+
+
+
+2012-11-26T22:31:33.000000Z
+0d09022a96f17284ae9900cdfdda6678
+2012-05-27T15:01:32.324843Z
+31902
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+716
 
 0013-MMC-JZ4740-Added-support-for-CPU-frequency-changing.patch
 file
@@ -332,14 +332,14 @@ juhosg
 
 8182
 
-0020-qi_lb60-NAND-add-data-partition.patch
+0016-ASoC-JZ4740-Support-buffer-size-that-is-not-a-multip.patch
 file
 
 
 
 
 2012-11-26T22:31:33.000000Z
-f8fc53e103ba4d18af18b80ed21740a5
+8e60aae9d9976d04d26d5eac7ab7776c
 2012-05-27T15:01:32.324843Z
 31902
 juhosg
@@ -364,41 +364,7 @@ juhosg
 
 
 
-796
-
-0004-NAND-Add-support-for-subpage-reads-for-NAND_ECC_HW_O.patch
-file
-
-
-
-
-2012-11-26T22:31:33.000000Z
-40de742509c74d82c4307ad8bce8addc
-2012-05-27T15:01:32.324843Z
-31902
-juhosg
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-5449
+2895
 
 0014-MIPS-JZ4740-reset-Initialize-hibernate-wakeup-counte.patch
 file
@@ -434,14 +400,14 @@ juhosg
 
 2992
 
-0016-ASoC-JZ4740-Support-buffer-size-that-is-not-a-multip.patch
+0004-NAND-Add-support-for-subpage-reads-for-NAND_ECC_HW_O.patch
 file
 
 
 
 
 2012-11-26T22:31:33.000000Z
-8e60aae9d9976d04d26d5eac7ab7776c
+40de742509c74d82c4307ad8bce8addc
 2012-05-27T15:01:32.324843Z
 31902
 juhosg
@@ -466,16 +432,16 @@ juhosg
 
 
 
-2895
+5449
 
-0011-MIPS-JZ4740-Added-setting-of-PLL-rate-and-main-divid.patch
+0020-qi_lb60-NAND-add-data-partition.patch
 file
 
 
 
 
 2012-11-26T22:31:33.000000Z
-2d19968a87a58792b64e877424351e57
+f8fc53e103ba4d18af18b80ed21740a5
 2012-05-27T15:01:32.324843Z
 31902
 juhosg
@@ -500,7 +466,7 @@ juhosg
 
 
 
-11275
+796
 
 0006-MTD-NAND-JZ4740-Multi-bank-support-with-autodetectio.patch
 file
@@ -535,6 +501,40 @@ juhosg
 
 
 12437
+
+0011-MIPS-JZ4740-Added-setting-of-PLL-rate-and-main-divid.patch
+file
+
+
+
+
+2012-11-26T22:31:33.000000Z
+2d19968a87a58792b64e877424351e57
+2012-05-27T15:01:32.324843Z
+31902
+juhosg
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11275
 
 0003-NAND-Optimize-NAND_ECC_HW_OOB_FIRST-read.patch
 file

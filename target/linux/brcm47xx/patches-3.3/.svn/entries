@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/brcm47xx/patches-3.3
 svn://svn.openwrt.org/openwrt
 
@@ -60,40 +60,6 @@ hauke
 
 1068
 
-160-kmap_coherent.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-f825de89c777d3a0a0733e6596f09d0d
-2011-06-18T15:24:44.642699Z
-27217
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2657
-
 812-disable_wgt634u_crap.patch
 file
 
@@ -127,6 +93,40 @@ hauke
 
 
 4793
+
+160-kmap_coherent.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+f825de89c777d3a0a0733e6596f09d0d
+2011-06-18T15:24:44.642699Z
+27217
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2657
 
 192-MIPS-BCM47XX-improve-memory-size-detection.patch
 file
@@ -366,40 +366,6 @@ hauke
 
 7826
 
-502-bcm47xx-rewrite-gpio-handling.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-96b24193bc3fd529f28d4965fe9c2845
-2012-09-30T11:43:13.645554Z
-33597
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-12906
-
 024-brcm47xx-add-common-interface-for-sflash.patch
 file
 
@@ -433,6 +399,40 @@ hauke
 
 
 5342
+
+502-bcm47xx-rewrite-gpio-handling.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+96b24193bc3fd529f28d4965fe9c2845
+2012-09-30T11:43:13.645554Z
+33597
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12906
 
 180-USB-OHCI-Add-a-generic-platform-device-driver.patch
 file
@@ -1488,40 +1488,6 @@ hauke
 
 17101
 
-204-bcma-do-not-initialize-deactivated-PCIe-cores.patch
-file
-
-
-
-
-2012-11-26T22:32:07.000000Z
-0a515389c7b6ce4e237a5c7a8af8b77e
-2012-10-04T15:45:54.895268Z
-33620
-hauke
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-792
-
 700-ssb-gigabit-ethernet-driver.patch
 file
 
@@ -1555,6 +1521,40 @@ hauke
 
 
 13847
+
+204-bcma-do-not-initialize-deactivated-PCIe-cores.patch
+file
+
+
+
+
+2012-11-26T22:32:07.000000Z
+0a515389c7b6ce4e237a5c7a8af8b77e
+2012-10-04T15:45:54.895268Z
+33620
+hauke
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+792
 
 202-bcma-init-sprom-struct-earlier.patch
 file

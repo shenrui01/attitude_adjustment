@@ -1,15 +1,15 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment
 svn://svn.openwrt.org/openwrt
 
 
 
-2012-11-26T13:35:30.361403Z
-34386
-florian
+2012-11-29T18:02:30.265043Z
+34416
+juhosg
 has-props
 
 
@@ -291,11 +291,11 @@ file
 
 
 
-2012-11-26T22:32:08.000000Z
-6f8c78cabda82d600bce5a0f330483ea
-2012-09-28T18:09:41.955028Z
-33582
-nbd
+2012-11-30T00:51:01.000000Z
+cd5f205fa35bba4eea13e2809c264fb1
+2012-11-29T17:49:50.254617Z
+34412
+juhosg
 has-props
 
 
@@ -317,7 +317,7 @@ has-props
 
 
 
-14455
+14682
 
 Makefile
 file

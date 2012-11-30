@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/package/base-files/files/lib/preinit
 svn://svn.openwrt.org/openwrt
 
@@ -128,40 +128,6 @@ nbd
 
 258
 
-99_10_failsafe_login
-file
-
-
-
-
-2012-11-26T22:31:18.000000Z
-70069fee1421e423b4b1b32fe8d41275
-2010-01-25T17:11:17.955488Z
-19331
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-380
-
 99_10_mount_no_mtd
 file
 
@@ -195,6 +161,40 @@ nbd
 
 
 207
+
+99_10_failsafe_login
+file
+
+
+
+
+2012-11-26T22:31:18.000000Z
+70069fee1421e423b4b1b32fe8d41275
+2010-01-25T17:11:17.955488Z
+19331
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+380
 
 10_check_for_mtd
 file
@@ -264,40 +264,6 @@ nbd
 
 301
 
-20_check_jffs2_ready
-file
-
-
-
-
-2012-11-26T22:31:18.000000Z
-64b8f9758cf25e80af122a3e458ba2ce
-2010-01-25T17:11:17.955488Z
-19331
-nbd
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-344
-
 05_mount_skip
 file
 
@@ -331,6 +297,40 @@ nbd
 
 
 193
+
+20_check_jffs2_ready
+file
+
+
+
+
+2012-11-26T22:31:18.000000Z
+64b8f9758cf25e80af122a3e458ba2ce
+2010-01-25T17:11:17.955488Z
+19331
+nbd
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+344
 
 90_init_console
 file
@@ -366,17 +366,17 @@ nbd
 
 265
 
-40_mount_jffs2
+50_indicate_regular_preinit
 file
 
 
 
 
 2012-11-26T22:31:18.000000Z
-7bcceb8b78a310c8d5ad83e755d6e0e8
-2011-02-20T21:25:45.891668Z
-25632
-mb
+a3ddeb98a9e57373d3245e3063955830
+2010-01-25T17:11:17.955488Z
+19331
+nbd
 
 
 
@@ -398,7 +398,7 @@ mb
 
 
 
-498
+282
 
 30_device_fs_daemons
 file
@@ -434,17 +434,17 @@ jow
 
 1027
 
-50_indicate_regular_preinit
+40_mount_jffs2
 file
 
 
 
 
 2012-11-26T22:31:18.000000Z
-a3ddeb98a9e57373d3245e3063955830
-2010-01-25T17:11:17.955488Z
-19331
-nbd
+7bcceb8b78a310c8d5ad83e755d6e0e8
+2011-02-20T21:25:45.891668Z
+25632
+mb
 
 
 
@@ -466,41 +466,7 @@ nbd
 
 
 
-282
-
-02_default_set_state
-file
-
-
-
-
-2012-11-26T22:31:18.000000Z
-193b1e9516b1755f8bd6e23f580e9314
-2011-07-07T02:52:02.172369Z
-27501
-cshore
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-111
+498
 
 90_mount_no_jffs2
 file
@@ -535,6 +501,40 @@ nbd
 
 
 240
+
+02_default_set_state
+file
+
+
+
+
+2012-11-26T22:31:18.000000Z
+193b1e9516b1755f8bd6e23f580e9314
+2011-07-07T02:52:02.172369Z
+27501
+cshore
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+111
 
 30_failsafe_wait
 file

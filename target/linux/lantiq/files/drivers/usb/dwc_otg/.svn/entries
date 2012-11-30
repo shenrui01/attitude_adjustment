@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/lantiq/files/drivers/usb/dwc_otg
 svn://svn.openwrt.org/openwrt
 
@@ -94,40 +94,6 @@ has-props
 
 58573
 
-dwc_otg_driver.c
-file
-
-
-
-
-2012-11-26T22:31:37.000000Z
-7bbe448967755c6fc6725fcf46848cb5
-2012-08-03T08:53:02.460175Z
-32953
-blogic
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-48680
-
 dwc_otg_ifx.h
 file
 
@@ -161,6 +127,40 @@ blogic
 
 
 2720
+
+dwc_otg_driver.c
+file
+
+
+
+
+2012-11-26T22:31:37.000000Z
+7bbe448967755c6fc6725fcf46848cb5
+2012-08-03T08:53:02.460175Z
+32953
+blogic
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+48680
 
 dwc_otg_hcd.c
 file
@@ -264,40 +264,6 @@ blogic
 
 22444
 
-dwc_otg_cil_intr.c
-file
-
-
-
-
-2012-11-26T22:31:37.000000Z
-a5f25bcbe1f6e72d09e138871a6f5221
-2012-08-03T08:53:02.460175Z
-32953
-blogic
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-26798
-
 dwc_otg_hcd.h
 file
 
@@ -332,14 +298,14 @@ has-props
 
 22487
 
-dwc_otg_plat.h
+dwc_otg_cil_intr.c
 file
 
 
 
 
 2012-11-26T22:31:37.000000Z
-851add753d4cd906a1c3407919499f7f
+a5f25bcbe1f6e72d09e138871a6f5221
 2012-08-03T08:53:02.460175Z
 32953
 blogic
@@ -364,7 +330,7 @@ has-props
 
 
 
-7677
+26798
 
 dwc_otg_regs.h
 file
@@ -399,6 +365,40 @@ blogic
 
 
 59079
+
+dwc_otg_plat.h
+file
+
+
+
+
+2012-11-26T22:31:37.000000Z
+851add753d4cd906a1c3407919499f7f
+2012-08-03T08:53:02.460175Z
+32953
+blogic
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7677
 
 dwc_otg_cil.c
 file

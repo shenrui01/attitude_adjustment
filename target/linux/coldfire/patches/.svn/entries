@@ -1,7 +1,7 @@
 10
 
 dir
-34398
+34427
 svn://svn.openwrt.org/openwrt/branches/attitude_adjustment/target/linux/coldfire/patches
 svn://svn.openwrt.org/openwrt
 
@@ -536,40 +536,6 @@ kaloz
 
 83221
 
-032-Change-some-jffs2-warning-to-debug-info.patch
-file
-
-
-
-
-2012-11-26T22:31:33.000000Z
-c82a2bc62efac2231195b04c22d1fb66
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1213
-
 003-MCF547x-and-MCF548x-support-in-Linux-2.6.38.patch
 file
 
@@ -603,6 +569,40 @@ kaloz
 
 
 243545
+
+032-Change-some-jffs2-warning-to-debug-info.patch
+file
+
+
+
+
+2012-11-26T22:31:33.000000Z
+c82a2bc62efac2231195b04c22d1fb66
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1213
 
 030-Add-SPI-device-configuration-for-FXS-and-FXO-on-MCF5.patch
 file
@@ -638,40 +638,6 @@ kaloz
 
 1236
 
-200-fec_select_phylib.patch
-file
-
-
-
-
-2012-11-26T22:31:33.000000Z
-3e6035e6737e72c364071c371da3e2bd
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-338
-
 010-Add-SRAM-char-device-driver-support-for-MCF5445x.patch
 file
 
@@ -705,6 +671,40 @@ kaloz
 
 
 5279
+
+200-fec_select_phylib.patch
+file
+
+
+
+
+2012-11-26T22:31:33.000000Z
+3e6035e6737e72c364071c371da3e2bd
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+338
 
 018-Add-SSD1289-TFT-LCD-framebuffer-driver-on-TWR-MCF544.patch
 file
@@ -740,40 +740,6 @@ kaloz
 
 26659
 
-005-Add-serial-driver-and-irda-driver-support-for-MCF544.patch
-file
-
-
-
-
-2012-11-26T22:31:33.000000Z
-73d4deebed5b565acd24644372680c84
-2012-05-01T07:00:17.595841Z
-31546
-kaloz
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6166
-
 051-Update-SD-MMC-over-SPI-driver-for-MCF54451-and-MCF54.patch
 file
 
@@ -808,14 +774,14 @@ kaloz
 
 3114
 
-012-Add-vDSO-support-for-Coldfire-platform.patch
+005-Add-serial-driver-and-irda-driver-support-for-MCF544.patch
 file
 
 
 
 
 2012-11-26T22:31:33.000000Z
-a43b96f7326140f1b19c37c4d20b6b3b
+73d4deebed5b565acd24644372680c84
 2012-05-01T07:00:17.595841Z
 31546
 kaloz
@@ -840,7 +806,7 @@ kaloz
 
 
 
-13055
+6166
 
 102-kernel-2.6.38-Fix-SD-MMC-SDIO-over-SPI-driver-bug-when-reinserting.patch
 file
@@ -875,6 +841,40 @@ kaloz
 
 
 1036
+
+012-Add-vDSO-support-for-Coldfire-platform.patch
+file
+
+
+
+
+2012-11-26T22:31:33.000000Z
+a43b96f7326140f1b19c37c4d20b6b3b
+2012-05-01T07:00:17.595841Z
+31546
+kaloz
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+13055
 
 008-Add-DSPI-driver-support-for-MCF5445x-MCF5441x.patch
 file
@@ -944,14 +944,14 @@ kaloz
 
 2621
 
-103-kernel-2.6.38-Fix-i2c-driver-could-not-work-as-module.patch
+007-Add-eDMA-support-for-MCF5445x.patch
 file
 
 
 
 
 2012-11-26T22:31:33.000000Z
-d1044c058be151fb286876d80563a5ad
+e854616209370631a125451808afc99e
 2012-05-01T07:00:17.595841Z
 31546
 kaloz
@@ -976,7 +976,7 @@ kaloz
 
 
 
-920
+48362
 
 022-Redefine-I-O-read-and-write-functions.patch
 file
@@ -1012,14 +1012,14 @@ kaloz
 
 1010
 
-007-Add-eDMA-support-for-MCF5445x.patch
+103-kernel-2.6.38-Fix-i2c-driver-could-not-work-as-module.patch
 file
 
 
 
 
 2012-11-26T22:31:33.000000Z
-e854616209370631a125451808afc99e
+d1044c058be151fb286876d80563a5ad
 2012-05-01T07:00:17.595841Z
 31546
 kaloz
@@ -1044,7 +1044,7 @@ kaloz
 
 
 
-48362
+920
 
 052-Update-the-default-configurations-for-ColdFire-V4-bo.patch
 file
