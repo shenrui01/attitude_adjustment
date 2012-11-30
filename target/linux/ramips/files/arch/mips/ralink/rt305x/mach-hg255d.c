@@ -42,8 +42,14 @@
 #define HG255D_GPIO_LED_WPS		12
 #define HG255D_GPIO_LED_VOICE		5
 
+#define HG255D_GPIO_LED_LAN1	1
+#define HG255D_GPIO_LED_LAN2	2
+#define HG255D_GPIO_LED_LAN3	3
+#define HG255D_GPIO_LED_LAN4	4
 
-#define HG255D_BUTTONS_POLL_INTERVAL	10
+#define HG255D_KEYS_POLL_INTERVAL	10	/* msecs */
+#define HG255D_KEYS_DEBOUNCE_INTERVAL (3 * HG255D_KEYS_POLL_INTERVAL)
+
 #define SZ_128K				0x020000
 #define SZ_1M				0x100000
 #define BLOCK_SZ_128K			SZ_128K
@@ -186,6 +192,22 @@ static struct gpio_led hg255d_led_pins[] = {
 		.name		= "hg255d:voice",
 		.gpio		= HG255D_GPIO_LED_VOICE,
 		.active_low	= 1,
+	}, {
+		.name		= "hg255d:ln1",
+		.gpio		= HG255D_GPIO_LED_LAN1,
+		.active_low	= 1,
+	}, {
+		.name		= "hg255d:ln2",
+		.gpio		= HG255D_GPIO_LED_LAN2,
+		.active_low	= 1,
+	}, {
+		.name		= "hg255d:ln3",
+		.gpio		= HG255D_GPIO_LED_LAN3,
+		.active_low	= 1,
+	}, {
+		.name		= "hg255d:ln4",
+		.gpio		= HG255D_GPIO_LED_LAN4,
+		.active_low	= 1,
 	}
 };
 
@@ -202,22 +224,22 @@ static struct platform_device hg255d_leds = {
 	}
 };
 
-/*
-static struct gpio_button hg255d_buttons[] __initdata = {
+
+static struct gpio_keys_button hg255d_gpio_keys[] __initdata = {
 	{
 		.desc		= "reset",
 		.type		= EV_KEY,
 		.code		= BTN_0,
 		.gpio		= HG255D_GPIO_BUTTON_RESET,
 		.active_low	= 1,
-		.threshold      = HG255D_BUTTONS_POLL_INTERVAL,
+		.debounce_interval      = HG255D_KEYS_DEBOUNCE_INTERVAL,
 	}, {
 		.desc		= "wlan",
 		.type		= EV_KEY,
 		.code		= BTN_1,
 		.gpio		= HG255D_GPIO_BUTTON_WLAN,
 		.active_low	= 1,
-		.threshold      = HG255D_BUTTONS_POLL_INTERVAL,
+		.debounce_interval      = HG255D_KEYS_DEBOUNCE_INTERVAL,
 
 	}, {
 		.desc		= "wps",
@@ -225,32 +247,23 @@ static struct gpio_button hg255d_buttons[] __initdata = {
 		.code		= BTN_2,
 		.gpio		= HG255D_GPIO_BUTTON_WPS,
 		.active_low	= 1,
-		.threshold      = HG255D_BUTTONS_POLL_INTERVAL,
+		.debounce_interval      = HG255D_KEYS_DEBOUNCE_INTERVAL,
 
 	}
 		
 };
-*/
 
 static void __init hg255d_init(void)
 {
 	rt305x_gpio_init(RT305X_GPIO_MODE_GPIO << RT305X_GPIO_MODE_UART0_SHIFT | RT305X_GPIO_MODE_I2C | RT305X_GPIO_MODE_SPI);
 	
-//	rt305x_register_flash(0, &hg255d_flash_data);
 	rt305x_register_flash(0);
 
-#if 0
 	ramips_register_gpio_leds(-1, ARRAY_SIZE(hg255d_leds_gpio),
 				  hg255d_leds_gpio);
-//	ramips_register_gpio_buttons(-1, HG255D_BUTTONS_POLL_INTERVAL,
-//				     ARRAY_SIZE(hg255d_gpio_buttons),
-//				     hg255d_gpio_buttons);
-#else
-	platform_device_register(&hg255d_leds);
-//	ramips_register_gpio_buttons(-1, HG255D_BUTTONS_POLL_INTERVAL,
-//                              ARRAY_SIZE(hg255d_buttons),
-//			      hg255d_buttons);
-#endif
+	ramips_register_gpio_keys_polled(-1, HG255D_KEYS_POLL_INTERVAL,
+				     ARRAY_SIZE(hg255d_gpio_keys),
+				     hg255d_gpio_keys);
 
 	rt305x_esw_data.vlan_config = RT305X_ESW_VLAN_CONFIG_WLLLL;
 	rt305x_register_ethernet();
