@@ -591,6 +591,7 @@ config wifi-iface
 	option mode     ap
 	option ssid     RS-NET
 	option encryption none
+	option wps_pushbutton '1'
 
 EOF
 	devidx=$(($devidx + 1))
