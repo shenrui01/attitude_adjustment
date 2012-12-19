@@ -32,6 +32,7 @@ endef
 define Package/dnsmasq
 $(call Package/dnsmasq/Default)
   VARIANT:=nodhcpv6
+  DEPENDS:=+dnscrypt-proxy
 endef
 
 define Package/dnsmasq-dhcpv6
