@@ -120,6 +120,16 @@ dnsmasq() {
 
 	config_get DOMAIN "$cfg" domain
 
+	        config_get orzhosts "$cfg" orzhosts 0 
+	 [ "$orzhosts" = "1" ] && append_addnhosts "/tmp/orzhosts" 
+	 
+	        config_get autouporzhosts "$cfg" autouporzhosts 0 
+	        if [ "$autouporzhosts" = "1" ] ; then
+	wget -qO /tmp/orzhosts http://downloads.openwrt.org.cn/software/HostsX.orzhosts; 
+	else 
+	[ -f /etc/orzhosts ]&& cp /etc/orzhosts /tmp/orzhosts 
+	fi
+
 	config_get_bool ADD_LOCAL_DOMAIN "$cfg" add_local_domain 1
 	config_get_bool ADD_LOCAL_HOSTNAME "$cfg" add_local_hostname 1
 
