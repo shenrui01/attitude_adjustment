@@ -8,16 +8,17 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=openssl
-PKG_VERSION:=1.0.1c
+PKG_VERSION:=1.0.1e
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=http://www.openssl.org/source/ \
-	ftp://ftp.funet.fi/pub/crypt/cryptography/libs/openssl/source/ \
-	ftp://ftp.webmonster.de/pub/openssl/source/ \
+	ftp://ftp.funet.fi/pub/crypt/mirrors/ftp.openssl.org/source \
 	ftp://ftp.sunet.se/pub/security/tools/net/openssl/source/
-PKG_MD5SUM:=ae412727c8c15b67880aef7bd2999b2e
+PKG_MD5SUM:=66bf6f10f060d561929de96f9dfe5b8c
 
+PKG_LICENSE:=SSLEAY OPENSSL
+PKG_LICENSE_FILES:=LICENSE
 PKG_BUILD_DEPENDS:=ocf-crypto-headers
 PKG_CONFIG_DEPENDS:=CONFIG_OPENSSL_ENGINE_CRYPTO CONFIG_OPENSSL_ENGINE_DIGEST
 
@@ -110,7 +111,7 @@ define Build/Configure
 	)
 endef
 
-TARGET_CFLAGS += $(FPIC) -DOPENSSL_THREADS -pthread -D_REENTRANT -D_THREAD_SAFE -D_THREADSAFE
+TARGET_CFLAGS += $(FPIC)
 
 define Build/Compile
 	# XXX: OpenSSL "make depend" will look for installed headers before its own,

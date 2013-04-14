@@ -1,19 +1,3 @@
-wpa_supplicant_setup_vif() {
-	local vif="$1"
-	local driver="$2"
-	local key="$key"
-	local options="$3"
-	local freq=""
-	local ht="$5"
-	local ap_scan=""
-	local scan_ssid="1"
-	[ -n "$4" ] && freq="frequency=$4"
-
-	# make sure we have the encryption type and the psk
-	[ -n "$enc" ] || {
-		config_get enc "$vif" encryption
-	}
-	[ -n "$key" ] || {
 		config_get key "$vif" key
 	}
 

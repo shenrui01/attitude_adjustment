@@ -135,7 +135,7 @@ if [ `basename $blkdev` != "block" ]; then
 			}
 		}
 
-		grep -q "/dev/$device" /proc/mounts || {
+		grep -q "/dev/$device" /proc/swaps || grep -q "/dev/$device" /proc/mounts || {
 			[ "$anon_mount" -eq 1 -a -z "$use_device" ] && {
 				case "$device" in
 					mtdblock*) ;;
