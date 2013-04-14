@@ -275,10 +275,12 @@ get_freq() {
 mac80211_generate_mac() {
 	local off="$1"
 	local mac="$2"
+	local mask="$3"
 	local oIFS="$IFS"; IFS=":"; set -- $mac; IFS="$oIFS"
 
 	local b2mask=0x00
-	[ $off -gt 0 ] && b2mask=0x02
+	[ $off -gt 0 ] &&
+		[ "$mask" = "00:00:00:00:00:00" -o $(( 0x${mask%%:*} & 0x2 )) -gt 0 ] && b2mask=0x02
 
 	printf "%02x:%s:%s:%s:%02x:%02x" \
 		$(( 0x$1 | $b2mask )) $2 $3 $4 \
@@ -378,7 +380,7 @@ enable_mac80211() {
 		config_get macaddr "$device" macaddr
 		config_get vif_mac "$vif" macaddr
 		[ -n "$vif_mac" ] || {
-			vif_mac="$(mac80211_generate_mac $macidx $macaddr)"
+			vif_mac="$(mac80211_generate_mac $macidx $macaddr $(cat /sys/class/ieee80211/${phy}/address_mask))"
 			macidx="$(($macidx + 1))"
 		}
 		[ "$mode" = "ap" ] || ifconfig "$ifname" hw ether "$vif_mac"
@@ -462,7 +464,7 @@ enable_mac80211() {
 							# make sure this wifi interface won't accidentally stay open without encryption
 							ifconfig "$ifname" down
 						}
-						# wpa_supplicant will bring the iface up
+						mac80211_start_vif "$vif" "$ifname"
 						continue
 					fi
 				}
@@ -589,9 +591,8 @@ config wifi-iface
 	option device   radio$devidx
 	option network  lan
 	option mode     ap
-	option ssid     RS-NET
+	option ssid     OpenWrt-Freedom
 	option encryption none
-	option wps_pushbutton '1'
 
 EOF
 	devidx=$(($devidx + 1))

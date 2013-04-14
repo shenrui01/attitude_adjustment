@@ -498,6 +498,10 @@ rt305x_esw_hw_init(struct rt305x_esw *esw)
 		       RT305X_ESW_SGC2_LAN_PMAP_M << RT305X_ESW_SGC2_LAN_PMAP_S,
 		       port_map << RT305X_ESW_SGC2_LAN_PMAP_S);
 
+	/* make the switch leds blink */
+	for (i = 0; i < RT305X_ESW_NUM_LEDS; i++)
+		esw->ports[i].led = 0x05;
+
 	/* Apply the empty config. */
 	rt305x_esw_apply_config(&esw->swdev);
 }
@@ -534,7 +538,7 @@ rt305x_esw_apply_config(struct switch_dev *dev)
 			untag     |= esw->ports[i].untag     << i;
 			pvid       = esw->ports[i].pvid;
 		} else {
-			int x = esw->alt_vlan_disable ? 1 : 0;
+			int x = esw->alt_vlan_disable ? 0 : 1;
 			doubletag |= x << i;
 			en_vlan   |= x << i;
 			untag     |= x << i;

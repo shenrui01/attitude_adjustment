@@ -1,5 +1,5 @@
 # 
-# Copyright (C) 2006-2012 OpenWrt.org
+# Copyright (C) 2006-2013 OpenWrt.org
 #
 # This is free software, licensed under the GNU General Public License v2.
 # See /LICENSE for more information.
@@ -9,12 +9,13 @@ include $(TOPDIR)/rules.mk
 
 PKG_NAME:=busybox
 PKG_VERSION:=1.19.4
-PKG_RELEASE:=5
+PKG_RELEASE:=6
 PKG_FLAGS:=essential
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=https://github.com/downloads/shenrui01/openwrt-mybox
-PKG_MD5SUM:=1ee6f98ceff844e520f793f3cbfad48d
+PKG_SOURCE_URL:=http://www.busybox.net/downloads \
+		http://distfiles.gentoo.org/distfiles/
+PKG_MD5SUM:=9c0cae5a0379228e7b55e5b29528df8e
 
 PKG_BUILD_DEPENDS:=BUSYBOX_CONFIG_FEATURE_HAVE_RPC:librpc
 PKG_BUILD_PARALLEL:=1
